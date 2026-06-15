@@ -1,10 +1,10 @@
 cv:
   name: Shang-Chieh Wang
-  label: Graduate Student & Researcher
+  label: Graduate Student
   email: scwang1005@gmail.com
   location: Taiwan
   image: ""
-  summary: "Incoming Master's student in Brain Science at National Yang Ming Chiao Tung University, with a strong foundation in Kinesiology from National Tsing Hua University. Specialized in cognitive neuroscience, utilizing fMRI and EEG to investigate how physical activity and resistance exercise influence cognitive functions and emotional regulation in aging populations."
+  summary: "Graduate Student in Brain Science at National Yang Ming Chiao Tung University, with a strong foundation in Kinesiology from National Tsing Hua University. Specialized in cognitive neuroscience, utilizing fMRI and EEG to investigate how physical activity and resistance exercise influence cognitive functions and emotional regulation in aging populations."
 
   social_networks:
     - network: GitHub
@@ -25,7 +25,7 @@ cv:
       - institution: National Tsing Hua University
         location: Taiwan
         area: Kinesiology
-        studyType: Bachelor of Education
+        studyType: Bachelor of Education (Graduated with distinction)
         start_date: 2022
         end_date: 2026
         score: "Graduated with distinction"
