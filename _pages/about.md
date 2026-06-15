@@ -6,7 +6,7 @@ subtitle: ""
 
 profile:
   align: right
-  image: prof_pic.jpg # 這裡的檔名必須跟你剛才上傳的檔名完全一致
+  image: chieh_pic.jpg # 這裡的檔名必須跟你剛才上傳的檔名完全一致
   image_circular: false # 如果想要大頭貼變成圓形的，可以把 false 改成 true
   more_info: >
     <p>Institute of Education</p>
