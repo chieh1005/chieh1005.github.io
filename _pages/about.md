@@ -13,7 +13,7 @@ profile:
 news: false     
 selected_papers: false  
 social: false    
-nav: true
+nav: false
 nav_order: 1
 ---
 
