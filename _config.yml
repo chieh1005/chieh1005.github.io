@@ -92,7 +92,7 @@ al_folio:
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: true
+bar_fixed: true
 footer_fixed: true
 search_enabled: true
 socials_in_search: true
@@ -315,7 +315,7 @@ jekyll-minifier:
   # CSS is already minified upstream (Tailwind build ships tailwind.css; main.scss is compiled
   # with sass `style: compressed`). Re-minifying via cssminify2 mangles Tailwind v4 spacing
   # tokens inside calc(), turning `var(--spacing)` into the invalid `var( -  - spacing)` and
-  # breaking every spacing/positioning utility (e.g. .fixed-top -> broken navbar). Disable it.
+  # breaking every spacing/positioning utility (e.g. .fixed-top -> broken navbarbarbarbarbar). Disable it.
   compress_css: false
   # JS minification is delegated to jekyll-terser (compress_javascript above is false).
   exclude: ["robots.txt"]
@@ -473,7 +473,7 @@ enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
-enable_navbar_social: false # enables displaying social links in the navbar on the about page
+enable_navbarbarbarbarbar_social: false # enables displaying social links in the navbarbarbarbarbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
