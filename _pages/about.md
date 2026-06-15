@@ -14,9 +14,9 @@ profile:
     <p>National Yang Ming Chiao Tung University</p>
     <p>Taiwan</p>
 
-news: true     
-selected_papers: true 
-social: true   
+news: false     
+selected_papers: false  
+social: false   
 ---
 
 I am an incoming Master's student majoring in Brain Science at National Yang Ming Chiao Tung University (NYCU), supervised by Prof. Jeng-Ren Duann. I previously graduated with distinction with a Bachelor of Education from the Department of Kinesiology at National Tsing Hua University (NTHU), where I worked under the supervision of Prof. Feng-Tzu Chen.
