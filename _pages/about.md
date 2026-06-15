@@ -8,10 +8,6 @@ profile:
   image: chieh_pic.jpg
   image_circular: false
   
-<div style="text-align: left; margin-bottom: 20px;">
-  <img src="/assets/img/logo.png" alt="Logo" style="width: 150px;">
-</div>
-
 news: false     
 selected_papers: false  
 social: false    
