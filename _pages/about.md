@@ -8,11 +8,6 @@ profile:
   align: right
   image: chieh_pic.jpg # 這裡的檔名必須跟你剛才上傳的檔名完全一致
   image_circular: true # 如果想要大頭貼變成圓形的，可以把 false 改成 true
-  more_info: >
-    <p>Institute of Education</p>
-    <p>Major in Brain Science</p>
-    <p>National Yang Ming Chiao Tung University</p>
-    <p>Taiwan</p>
 
 news: false     
 selected_papers: false  
