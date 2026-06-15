@@ -31,8 +31,7 @@ cv:
         score: "Graduated with distinction"
         highlights:
           - "Supervised by Prof. Feng-Tzu Chen."
-          - "Awarded 113-1 & 113-2 Academic Excellence Award."
-          - "Member of Student Association of Kinesiology Department (26th)."
+          - "Research Project: Investigate the effects of low intensity resistance exercise combined with slow movement and tonic force generation on executive function in older adults. "
 
     Experience:
       - company: National Tsing Hua University
@@ -40,7 +39,8 @@ cv:
         location: Taiwan
         start_date: 2024
         end_date: 2026
-        summary: "Conducted multiple research projects focusing on the intersection of physical activity and executive functions."
+        summary: "Conducted multiple research projects focusing on how physical activity may influences brain function in special population in order to developed personalized exercise prescriptions for them ."
+  
         highlights:
           - "The Effect of Low-intensity Resistance Exercise with Slow Movement and Tonic Force Generation on Cognitive Flexibility in Older Adults (NSTC Project): Designed methodology, executed standardized experiments (n=45), and analyzed data."
           - "Effects of Volume-Matched Acute Exercise on Metacognition in Late Middle-Aged Adults: Administered experiments, analyzed data, and drafted journal articles."
