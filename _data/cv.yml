@@ -4,7 +4,7 @@ cv:
   email: scwang1005@gmail.com
   location: Taiwan
   image: ""
-  summary: Incoming Master's student in Brain Science at National Yang Ming Chiao Tung University, with a strong foundation in Kinesiology from National Tsing Hua University. Specialized in cognitive neuroscience, utilizing fMRI and EEG to investigate how physical activity and resistance exercise influence cognitive functions and emotional regulation in aging populations.
+  summary: "Incoming Master's student in Brain Science at National Yang Ming Chiao Tung University, with a strong foundation in Kinesiology from National Tsing Hua University. Specialized in cognitive neuroscience, utilizing fMRI and EEG to investigate how physical activity and resistance exercise influence cognitive functions and emotional regulation in aging populations."
 
   social_networks:
     - network: GitHub
@@ -17,7 +17,7 @@ cv:
         area: Brain Science (Institute of Education)
         studyType: Master of Education
         start_date: 2026
-        end_date: Present
+        end_date: "Present"
         highlights:
           - "Supervised by Prof. Jeng-Ren Duann."
           - "Focusing on Cognitive Neuroscience, fMRI, and EEG data analysis."
@@ -40,7 +40,7 @@ cv:
         location: Taiwan
         start_date: 2024
         end_date: 2026
-        summary: Conducted multiple research projects focusing on the intersection of physical activity and executive functions.
+        summary: "Conducted multiple research projects focusing on the intersection of physical activity and executive functions."
         highlights:
           - "The Effect of Low-intensity Resistance Exercise with Slow Movement and Tonic Force Generation on Cognitive Flexibility in Older Adults (NSTC Project): Designed methodology, executed standardized experiments (n=45), and analyzed data."
           - "Effects of Volume-Matched Acute Exercise on Metacognition in Late Middle-Aged Adults: Administered experiments, analyzed data, and drafted journal articles."
@@ -49,7 +49,7 @@ cv:
     Awards:
       - title: Best Oral Presenter Award
         date: 2025
-        awarder: 12th International Seminar of Sport and Exercise Psychology, Malaysia
+        awarder: "12th International Seminar of Sport and Exercise Psychology, Malaysia"
         summary: "Awarded for the research proposal: Comparing the Effects of Low-Intensity Slow Movement and Tonic Force Generation and Moderate-Intensity Resistance Exercise on Cognitive Flexibility in Older Adults."
       
       - title: Academic Excellence Award
@@ -63,7 +63,7 @@ cv:
           - Shang-Chieh Wang
           - Ting-Ting Wu
           - et al.
-        publisher: 臺灣運動心理學報 (Bulletin of Sport and Exercise Psychology of Taiwan)
+        publisher: "臺灣運動心理學報 (Bulletin of Sport and Exercise Psychology of Taiwan)"
         releaseDate: 2025-03-01
         url: https://doi.org/10.6497/BSEPT.202503_25(1).0004
         summary: "TSSCI Indexed Journal."
@@ -74,7 +74,7 @@ cv:
           - Chen-Hsin Hung
           - Shang-Chieh Wang
           - et al.
-        publisher: 運動表現期刊 (Journal of Sports Performance)
+        publisher: "運動表現期刊 (Journal of Sports Performance)"
         releaseDate: 2025-09-01
         url: https://doi.org/10.53106/240996512025091202005
         summary: "TSSCI Indexed Journal. (Accepted)"
@@ -84,7 +84,7 @@ cv:
           - Michael Chen
           - Shang-Chieh Wang
           - et al.
-        publisher: 中華體育季刊 (Quarterly of Chinese Physical Education)
+        publisher: "中華體育季刊 (Quarterly of Chinese Physical Education)"
         releaseDate: 2025-01-01
         summary: "TSSCI Indexed Journal. (Accepted)"
 
