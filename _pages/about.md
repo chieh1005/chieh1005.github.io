@@ -2,17 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: 
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false 
-  more_info: >
-    <p>Institute of Education</p>
-    <p>Major in Brain Science</p>
-    <p>National Yang Ming Chiao Tung University</p>
-    <p>Taiwan</p>
+subtitle: ""
 
 news: true     
 selected_papers: true 
