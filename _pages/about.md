@@ -8,11 +8,7 @@ profile:
   align: right
   image: chieh_pic.jpg
   image_circular: false
-  more_info: >
-    <p>Institute of Education</p>
-    <p>Major in Brain Science</p>
-    <p>National Yang Ming Chiao Tung University</p>
-    <p>Taiwan</p>
+
 
 news: false     
 selected_papers: false  
