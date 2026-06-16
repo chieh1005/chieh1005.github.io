@@ -50,12 +50,16 @@ html[data-theme="dark"] {
 .aw-section h2.aw-h { font-size: clamp(1.4rem, 2.6vw, 1.9rem); font-weight: 650; letter-spacing: -0.025em; line-height: 1.14; margin: 0 0 0.4rem; color: var(--global-text-color); }
 .aw-section .aw-count { font-size: 0.9rem; color: var(--global-text-color-light); margin: 0 0 1.4rem; }
 
-/* brainwave line */
-.aw-wave { margin: 1.6rem 0 0; line-height: 0; }
-.aw-wave svg { width: 100%; height: auto; display: block; overflow: visible; }
-.aw-wave .trace-base { stroke: var(--aw-accent); opacity: 0.22; }
-.aw-wave .trace-pulse { stroke: var(--aw-accent); stroke-dasharray: 46 1400; stroke-dashoffset: 1446; animation: aw-signal 4.6s cubic-bezier(0.45,0,0.55,1) infinite; }
-@keyframes aw-signal { to { stroke-dashoffset: 0; } }
+/* neuron signal transmission */
+.aw-wave { margin: 1.6rem 0 0; line-height: 0; display: flex; justify-content: center; }
+.aw-wave svg { width: auto; height: 80px; display: block; }
+.aw-wave .neuron-body { stroke: var(--aw-accent); opacity: 0.6; }
+.aw-wave .neuron-axon { stroke: var(--aw-accent); opacity: 0.5; }
+.aw-wave .neuron-dendrite { stroke: var(--aw-accent); opacity: 0.5; }
+.aw-wave .synapse-gap { stroke: var(--aw-accent); }
+.aw-wave .vesicle { fill: var(--aw-accent); opacity: 0.4; }
+.aw-wave .signal-pulse { fill: var(--aw-accent); animation: signal-travel 3.2s cubic-bezier(0.45,0,0.55,1) infinite; }
+@keyframes signal-travel { 0% { cx: 50; opacity: 0.3; } 10% { cx: 60; opacity: 0.8; } 45% { cx: 130; opacity: 0.6; } 55% { cx: 130; opacity: 0.4; } 90% { cx: 200; opacity: 0.8; } 100% { cx: 210; opacity: 0.3; } }
 
 /* intro + fMRI motif */
 .aw-summary { position: relative; }
@@ -83,7 +87,7 @@ html[data-theme="dark"] .aw-badge.award { color: #f5b34a; }
 .aw-reveal.in { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) {
   .aw-reveal { opacity: 1; transform: none; transition: none; }
-  .aw-wave .trace-pulse { animation: none; stroke-dasharray: none; stroke-dashoffset: 0; opacity: 0.5; }
+  .aw-wave .signal-pulse { animation: none; opacity: 0.6; }
 }
 </style>
 
@@ -96,9 +100,24 @@ html[data-theme="dark"] .aw-badge.award { color: #f5b34a; }
 </div>
 
 <div class="aw-wave aw-reveal" aria-hidden="true">
-  <svg viewBox="0 0 720 56" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="none">
-    <path class="trace-base" d="M0,28 q20,-15 40,0 t40,0 t40,0 L160,28 l8,-22 l8,42 l8,-20 L200,28 q20,-12 40,0 t40,0 t40,0 t40,0 L400,28 l8,-20 l8,38 l8,-18 L440,28 q20,-14 40,0 t40,0 t40,0 t40,0 t40,0 t40,0 L720,28"/>
-    <path class="trace-pulse" d="M0,28 q20,-15 40,0 t40,0 t40,0 L160,28 l8,-22 l8,42 l8,-20 L200,28 q20,-12 40,0 t40,0 t40,0 t40,0 L400,28 l8,-20 l8,38 l8,-18 L440,28 q20,-14 40,0 t40,0 t40,0 t40,0 t40,0 t40,0 L720,28"/>
+  <svg viewBox="0 0 280 80" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+    <!-- Left neuron cell body -->
+    <circle class="neuron-body" cx="50" cy="40" r="24" stroke-width="1.8"/>
+    <path class="neuron-axon" d="M74,40 Q100,35 130,40" stroke-width="1.6" fill="none"/>
+    
+    <!-- Synaptic vesicles (animate along axon) -->
+    <circle class="vesicle" cx="80" cy="40" r="2.2"/>
+    
+    <!-- Synapse gap -->
+    <line class="synapse-gap" x1="130" y1="30" x2="130" y2="50" stroke-width="1.4" opacity="0.5"/>
+    <line class="synapse-gap" x1="128" y1="32" x2="128" y2="48" stroke-width="1.2" opacity="0.4"/>
+    
+    <!-- Right neuron cell body -->
+    <circle class="neuron-body" cx="210" cy="40" r="24" stroke-width="1.8"/>
+    <path class="neuron-dendrite" d="M186,40 Q160,35 130,40" stroke-width="1.6" fill="none"/>
+    
+    <!-- Signal pulse (travels from left to right) -->
+    <circle class="signal-pulse" cx="80" cy="40" r="3.5" opacity="0.8"/>
   </svg>
 </div>
 
