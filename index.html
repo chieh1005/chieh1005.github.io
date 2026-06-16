@@ -55,20 +55,31 @@ html[data-theme="dark"] {
   mask-image: radial-gradient(closest-side, #000 32%, transparent 74%);
 }
 
-/* ---------- Brainwave (EEG) signal line ---------- */
+/* ---------- Neuron signal transmission ---------- */
 .aw-wave {
   margin: 1.9rem 0 0;
   line-height: 0;
+  display: flex;
+  justify-content: center;
 }
-.aw-wave svg { width: 100%; height: auto; display: block; overflow: visible; }
-.aw-wave .trace-base { stroke: var(--aw-accent); opacity: 0.22; }
-.aw-wave .trace-pulse {
-  stroke: var(--aw-accent);
-  stroke-dasharray: 46 1400;
-  stroke-dashoffset: 1446;
-  animation: aw-signal 4.6s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+.aw-wave svg { width: auto; height: 80px; display: block; }
+.aw-wave .neuron-body { stroke: var(--aw-accent); opacity: 0.6; }
+.aw-wave .neuron-axon { stroke: var(--aw-accent); opacity: 0.5; }
+.aw-wave .neuron-dendrite { stroke: var(--aw-accent); opacity: 0.5; }
+.aw-wave .synapse-gap { stroke: var(--aw-accent); }
+.aw-wave .vesicle { fill: var(--aw-accent); opacity: 0.4; }
+.aw-wave .signal-pulse {
+  fill: var(--aw-accent);
+  animation: signal-travel 3.2s cubic-bezier(0.45, 0, 0.55, 1) infinite;
 }
-@keyframes aw-signal { to { stroke-dashoffset: 0; } }
+@keyframes signal-travel {
+  0% { cx: 50; opacity: 0.3; }
+  10% { cx: 60; opacity: 0.8; }
+  45% { cx: 130; opacity: 0.6; }
+  55% { cx: 130; opacity: 0.4; }
+  90% { cx: 200; opacity: 0.8; }
+  100% { cx: 210; opacity: 0.3; }
+}
 .post-title {
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
   font-weight: 700;
@@ -267,9 +278,9 @@ html[data-theme="dark"] {
 .aw-reveal.in { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) {
   .aw-reveal { opacity: 1; transform: none; transition: none; }
-  .aw-wave .trace-pulse { animation: none; stroke-dasharray: none; stroke-dashoffset: 0; opacity: 0.5; }
+  .aw-wave .signal-pulse { animation: none; opacity: 0.6; }
 }
-</style> <div class="aw"> <p class="aw-lead aw-reveal"> I'm a graduate student in <span class="accent">Brain Science</span> at National Yang Ming Chiao Tung University, Taiwan — bridging a background in kinesiology with cognitive neuroscience and statistical neuroimaging to understand how the brain ages, and how movement can protect it. </p> <div class="aw-contact aw-reveal"> <p><strong>Email:</strong> <a href="mailto:scwang1005@gmail.com">scwang1005@gmail.com</a></p> <p><strong>GitHub:</strong> <a href="https://github.com/chieh1005" target="_blank" rel="noopener">github.com/chieh1005</a></p> </div> <div class="aw-wave aw-reveal" aria-hidden="true"> <svg viewbox="0 0 720 56" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" preserveaspectratio="none"> <path class="trace-base" d="M0,28 q20,-15 40,0 t40,0 t40,0 L160,28 l8,-22 l8,42 l8,-20 L200,28 q20,-12 40,0 t40,0 t40,0 t40,0 L400,28 l8,-20 l8,38 l8,-18 L440,28 q20,-14 40,0 t40,0 t40,0 t40,0 t40,0 t40,0 L720,28"></path> <path class="trace-pulse" d="M0,28 q20,-15 40,0 t40,0 t40,0 L160,28 l8,-22 l8,42 l8,-20 L200,28 q20,-12 40,0 t40,0 t40,0 t40,0 L400,28 l8,-20 l8,38 l8,-18 L440,28 q20,-14 40,0 t40,0 t40,0 t40,0 t40,0 t40,0 L720,28"></path> </svg> </div> <section class="aw-section aw-reveal"> <span class="aw-eyebrow">Research Focus</span> <h2 class="aw-h">Where I spend my curiosity.</h2> <p class="aw-sub">My work sits at the intersection of clinical neuroscience and human movement — using brain imaging to probe the mechanisms of neurodegenerative disease.</p> <div class="aw-grid"> <div class="aw-card"> <h3>Cognitive Neuroscience</h3> <p>How attention, memory, and executive function reshape themselves across the lifespan.</p> </div> <div class="aw-card"> <h3>Neuroimaging · fMRI &amp; EEG</h3> <p>fMRI &amp; EEG pipelines to map brain structure, function, and connectivity.</p> </div> <div class="aw-card"> <h3>Exercise, Psychology &amp; Aging</h3> <p>Whether physical activity can slow cognitive decline and neurodegeneration.</p> </div> </div> </section> <section class="aw-section aw-reveal"> <span class="aw-eyebrow">Journey</span> <h2 class="aw-h">From movement to the mind.</h2> <p class="aw-sub">A path that started with the body and grew into the brain.</p> <div class="aw-journey"> <div class="aw-step"> <div class="yr">B.Ed.</div> <div class="deg">Kinesiology</div> <div class="ins">National Tsing Hua University</div> </div> <div class="aw-arrow">→</div> <div class="aw-step"> <div class="yr">M.Ed. · INCOMING</div> <div class="deg">Brain Science</div> <div class="ins">National Yang Ming Chiao Tung University</div> </div> </div> </section> <section class="aw-section aw-reveal"> <span class="aw-eyebrow">Get in touch</span> <h2 class="aw-h">Let's talk brains.</h2> <p class="aw-sub">Open to collaborations in neuroimaging, exercise neuroscience, and healthy aging.</p> <a class="aw-cta" href="/cv/">View CV</a> <a class="aw-cta ghost" href="/publications/">Publications</a> </section> </div> <script>
+</style> <div class="aw"> <p class="aw-lead aw-reveal"> I'm a graduate student in <span class="accent">Brain Science</span> at National Yang Ming Chiao Tung University, Taiwan — bridging a background in kinesiology with cognitive neuroscience and statistical neuroimaging to understand how the brain ages, and how movement can protect it. </p> <div class="aw-contact aw-reveal"> <p><strong>Email:</strong> <a href="mailto:scwang1005@gmail.com">scwang1005@gmail.com</a></p> <p><strong>GitHub:</strong> <a href="https://github.com/chieh1005" target="_blank" rel="noopener">github.com/chieh1005</a></p> </div> <div class="aw-wave aw-reveal" aria-hidden="true"> <svg viewbox="0 0 280 80" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"> <circle class="neuron-body" cx="50" cy="40" r="24" stroke-width="1.8"></circle> <path class="neuron-axon" d="M74,40 Q100,35 130,40" stroke-width="1.6" fill="none"></path> <circle class="vesicle" cx="80" cy="40" r="2.2"></circle> <line class="synapse-gap" x1="130" y1="30" x2="130" y2="50" stroke-width="1.4" opacity="0.5"></line> <line class="synapse-gap" x1="128" y1="32" x2="128" y2="48" stroke-width="1.2" opacity="0.4"></line> <circle class="neuron-body" cx="210" cy="40" r="24" stroke-width="1.8"></circle> <path class="neuron-dendrite" d="M186,40 Q160,35 130,40" stroke-width="1.6" fill="none"></path> <circle class="signal-pulse" cx="80" cy="40" r="3.5" opacity="0.8"></circle> </svg> </div> <section class="aw-section aw-reveal"> <span class="aw-eyebrow">Research Focus</span> <h2 class="aw-h">Where I spend my curiosity.</h2> <p class="aw-sub">My work sits at the intersection of clinical neuroscience and human movement — using brain imaging to probe the mechanisms of neurodegenerative disease.</p> <div class="aw-grid"> <div class="aw-card"> <h3>Cognitive Neuroscience</h3> <p>How attention, memory, and executive function reshape themselves across the lifespan.</p> </div> <div class="aw-card"> <h3>Neuroimaging · fMRI &amp; EEG</h3> <p>fMRI &amp; EEG pipelines to map brain structure, function, and connectivity.</p> </div> <div class="aw-card"> <h3>Exercise, Psychology &amp; Aging</h3> <p>Whether physical activity can slow cognitive decline and neurodegeneration.</p> </div> </div> </section> <section class="aw-section aw-reveal"> <span class="aw-eyebrow">Journey</span> <h2 class="aw-h">From movement to the mind.</h2> <p class="aw-sub">A path that started with the body and grew into the brain.</p> <div class="aw-journey"> <div class="aw-step"> <div class="yr">B.Ed.</div> <div class="deg">Kinesiology</div> <div class="ins">National Tsing Hua University</div> </div> <div class="aw-arrow">→</div> <div class="aw-step"> <div class="yr">M.Ed. · INCOMING</div> <div class="deg">Brain Science</div> <div class="ins">National Yang Ming Chiao Tung University</div> </div> </div> </section> <section class="aw-section aw-reveal"> <span class="aw-eyebrow">Get in touch</span> <h2 class="aw-h">Let's talk brains.</h2> <p class="aw-sub">Open to collaborations in neuroimaging, exercise neuroscience, and healthy aging.</p> <a class="aw-cta" href="/cv/">View CV</a> <a class="aw-cta ghost" href="/publications/">Publications</a> </section> </div> <script>
 (function () {
   var els = document.querySelectorAll('.aw-reveal');
   if (!('IntersectionObserver' in window)) {
