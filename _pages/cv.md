@@ -48,26 +48,12 @@ html[data-theme="dark"] {
 .aw-section { margin-top: 3rem; padding-top: 2.75rem; border-top: 1px solid var(--global-divider-color); }
 .aw-section h2.aw-h { font-size: clamp(1.4rem, 2.6vw, 1.9rem); font-weight: 650; letter-spacing: -0.025em; line-height: 1.14; margin: 0 0 1.4rem; color: var(--global-text-color); }
 
-/* complete neuron synapse transmission */
-.aw-wave { margin: 1.6rem 0 0; line-height: 0; display: flex; justify-content: center; }
-.aw-wave svg { width: auto; height: 100px; display: block; }
-.aw-wave .dendrite { stroke: var(--aw-accent); opacity: 0.5; }
-.aw-wave .soma { stroke: var(--aw-accent); opacity: 0.7; stroke-width: 1.6; }
-.aw-wave .nucleus { stroke: var(--aw-accent); opacity: 0.5; stroke-width: 1.2; }
-.aw-wave .axon { stroke: var(--aw-accent); opacity: 0.6; }
-.aw-wave .axon-hillock { stroke: var(--aw-accent); opacity: 0.6; }
-.aw-wave .axon-terminal { stroke: var(--aw-accent); opacity: 0.7; }
-.aw-wave .vesicle { fill: var(--aw-accent); opacity: 0.5; }
-.aw-wave .vesicle-1 { animation: vesicle-drift-1 3.2s ease-in-out infinite; }
-.aw-wave .vesicle-2 { animation: vesicle-drift-2 3.2s ease-in-out infinite; }
-.aw-wave .vesicle-3 { animation: vesicle-drift-3 3.2s ease-in-out infinite; }
-.aw-wave .synaptic-cleft { stroke: var(--aw-accent); opacity: 0.5; }
-.aw-wave .receptor { stroke: var(--aw-accent); fill: var(--aw-accent); opacity: 0.6; }
-.aw-wave .signal-pulse { fill: var(--aw-accent); animation: signal-travel 3.2s cubic-bezier(0.45,0,0.55,1) infinite; }
-@keyframes signal-travel { 0% { cx: 60; opacity: 0.2; } 20% { cx: 100; opacity: 0.8; } 40% { cx: 145; opacity: 0.9; } 50% { cx: 165; opacity: 0.7; } 75% { cx: 200; opacity: 0.8; } 100% { cx: 230; opacity: 0.2; } }
-@keyframes vesicle-drift-1 { 0%, 100% { opacity: 0.3; } 35% { opacity: 0.8; transform: translate(8px, 4px); } 45% { opacity: 0.5; } }
-@keyframes vesicle-drift-2 { 0%, 100% { opacity: 0.3; } 38% { opacity: 0.8; transform: translate(6px, 8px); } 48% { opacity: 0.5; } }
-@keyframes vesicle-drift-3 { 0%, 100% { opacity: 0.3; } 40% { opacity: 0.8; transform: translate(4px, 6px); } 50% { opacity: 0.5; } }
+/* brainwave line */
+.aw-wave { margin: 1.6rem 0 0; line-height: 0; }
+.aw-wave svg { width: 100%; height: auto; display: block; overflow: visible; }
+.aw-wave .trace-base { stroke: var(--aw-accent); opacity: 0.22; }
+.aw-wave .trace-pulse { stroke: var(--aw-accent); stroke-dasharray: 46 1400; stroke-dashoffset: 1446; animation: aw-signal 4.6s cubic-bezier(0.45,0,0.55,1) infinite; }
+@keyframes aw-signal { to { stroke-dashoffset: 0; } }
 
 /* summary + fMRI motif */
 .aw-summary { position: relative; }
@@ -119,58 +105,9 @@ html[data-theme="dark"] {
 </div>
 
 <div class="aw-wave aw-reveal" aria-hidden="true">
-  <svg viewBox="0 0 360 100" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
-    <!-- LEFT PRESYNAPTIC NEURON -->
-    <!-- Dendrites (left side) -->
-    <path class="dendrite" d="M20,50 Q10,45 8,35"/>
-    <path class="dendrite" d="M20,50 Q10,55 8,65"/>
-    <path class="dendrite" d="M30,60 Q25,70 20,80"/>
-    
-    <!-- Cell body (soma) -->
-    <circle class="soma" cx="45" cy="50" r="18" stroke-width="1.6"/>
-    
-    <!-- Nucleus -->
-    <circle class="nucleus" cx="45" cy="50" r="8" stroke-width="1.2" opacity="0.6"/>
-    
-    <!-- Axon -->
-    <path class="axon" d="M63,50 Q110,48 145,50" stroke-width="1.6" fill="none"/>
-    
-    <!-- Axon hillock -->
-    <ellipse class="axon-hillock" cx="63" cy="50" rx="5" ry="8" stroke-width="1.4"/>
-    
-    <!-- RIGHT POSTSYNAPTIC NEURON -->
-    <!-- Dendrites (right side) -->
-    <path class="dendrite" d="M215,50 Q225,45 227,35"/>
-    <path class="dendrite" d="M215,50 Q225,55 227,65"/>
-    <path class="dendrite" d="M205,60 Q210,70 215,80"/>
-    
-    <!-- Cell body (soma) -->
-    <circle class="soma" cx="190" cy="50" r="18" stroke-width="1.6"/>
-    
-    <!-- Nucleus -->
-    <circle class="nucleus" cx="190" cy="50" r="8" stroke-width="1.2" opacity="0.6"/>
-    
-    <!-- SYNAPTIC TRANSMISSION -->
-    <!-- Axon terminal -->
-    <circle class="axon-terminal" cx="145" cy="50" r="6" stroke-width="1.4" opacity="0.7"/>
-    
-    <!-- Synaptic vesicles -->
-    <circle class="vesicle vesicle-1" cx="135" cy="42" r="2"/>
-    <circle class="vesicle vesicle-2" cx="140" cy="38" r="2"/>
-    <circle class="vesicle vesicle-3" cx="148" cy="40" r="2"/>
-    
-    <!-- Synaptic cleft (gap) -->
-    <path class="synaptic-cleft" d="M152,48 L155,48" stroke-width="1.2" opacity="0.6"/>
-    <path class="synaptic-cleft" d="M152,52 L155,52" stroke-width="1.2" opacity="0.6"/>
-    
-    <!-- Receptors on postsynaptic membrane -->
-    <circle class="receptor" cx="162" cy="48" r="1.8" opacity="0.5"/>
-    <circle class="receptor" cx="167" cy="48" r="1.8" opacity="0.5"/>
-    <circle class="receptor" cx="162" cy="52" r="1.8" opacity="0.5"/>
-    <circle class="receptor" cx="167" cy="52" r="1.8" opacity="0.5"/>
-    
-    <!-- Signal pulse animation -->
-    <circle class="signal-pulse" cx="80" cy="50" r="3" opacity="0.8"/>
+  <svg viewBox="0 0 720 56" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="none">
+    <path class="trace-base" d="M0,28 q20,-15 40,0 t40,0 t40,0 L160,28 l8,-22 l8,42 l8,-20 L200,28 q20,-12 40,0 t40,0 t40,0 t40,0 L400,28 l8,-20 l8,38 l8,-18 L440,28 q20,-14 40,0 t40,0 t40,0 t40,0 t40,0 t40,0 L720,28"/>
+    <path class="trace-pulse" d="M0,28 q20,-15 40,0 t40,0 t40,0 L160,28 l8,-22 l8,42 l8,-20 L200,28 q20,-12 40,0 t40,0 t40,0 t40,0 L400,28 l8,-20 l8,38 l8,-18 L440,28 q20,-14 40,0 t40,0 t40,0 t40,0 t40,0 t40,0 L720,28"/>
   </svg>
 </div>
 
