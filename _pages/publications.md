@@ -50,16 +50,26 @@ html[data-theme="dark"] {
 .aw-section h2.aw-h { font-size: clamp(1.4rem, 2.6vw, 1.9rem); font-weight: 650; letter-spacing: -0.025em; line-height: 1.14; margin: 0 0 0.4rem; color: var(--global-text-color); }
 .aw-section .aw-count { font-size: 0.9rem; color: var(--global-text-color-light); margin: 0 0 1.4rem; }
 
-/* neuron signal transmission */
+/* complete neuron synapse transmission */
 .aw-wave { margin: 1.6rem 0 0; line-height: 0; display: flex; justify-content: center; }
-.aw-wave svg { width: auto; height: 80px; display: block; }
-.aw-wave .neuron-body { stroke: var(--aw-accent); opacity: 0.6; }
-.aw-wave .neuron-axon { stroke: var(--aw-accent); opacity: 0.5; }
-.aw-wave .neuron-dendrite { stroke: var(--aw-accent); opacity: 0.5; }
-.aw-wave .synapse-gap { stroke: var(--aw-accent); }
-.aw-wave .vesicle { fill: var(--aw-accent); opacity: 0.4; }
+.aw-wave svg { width: auto; height: 100px; display: block; }
+.aw-wave .dendrite { stroke: var(--aw-accent); opacity: 0.5; }
+.aw-wave .soma { stroke: var(--aw-accent); opacity: 0.7; stroke-width: 1.6; }
+.aw-wave .nucleus { stroke: var(--aw-accent); opacity: 0.5; stroke-width: 1.2; }
+.aw-wave .axon { stroke: var(--aw-accent); opacity: 0.6; }
+.aw-wave .axon-hillock { stroke: var(--aw-accent); opacity: 0.6; }
+.aw-wave .axon-terminal { stroke: var(--aw-accent); opacity: 0.7; }
+.aw-wave .vesicle { fill: var(--aw-accent); opacity: 0.5; }
+.aw-wave .vesicle-1 { animation: vesicle-drift-1 3.2s ease-in-out infinite; }
+.aw-wave .vesicle-2 { animation: vesicle-drift-2 3.2s ease-in-out infinite; }
+.aw-wave .vesicle-3 { animation: vesicle-drift-3 3.2s ease-in-out infinite; }
+.aw-wave .synaptic-cleft { stroke: var(--aw-accent); opacity: 0.5; }
+.aw-wave .receptor { stroke: var(--aw-accent); fill: var(--aw-accent); opacity: 0.6; }
 .aw-wave .signal-pulse { fill: var(--aw-accent); animation: signal-travel 3.2s cubic-bezier(0.45,0,0.55,1) infinite; }
-@keyframes signal-travel { 0% { cx: 50; opacity: 0.3; } 10% { cx: 60; opacity: 0.8; } 45% { cx: 130; opacity: 0.6; } 55% { cx: 130; opacity: 0.4; } 90% { cx: 200; opacity: 0.8; } 100% { cx: 210; opacity: 0.3; } }
+@keyframes signal-travel { 0% { cx: 60; opacity: 0.2; } 20% { cx: 100; opacity: 0.8; } 40% { cx: 145; opacity: 0.9; } 50% { cx: 165; opacity: 0.7; } 75% { cx: 200; opacity: 0.8; } 100% { cx: 230; opacity: 0.2; } }
+@keyframes vesicle-drift-1 { 0%, 100% { opacity: 0.3; } 35% { opacity: 0.8; transform: translate(8px, 4px); } 45% { opacity: 0.5; } }
+@keyframes vesicle-drift-2 { 0%, 100% { opacity: 0.3; } 38% { opacity: 0.8; transform: translate(6px, 8px); } 48% { opacity: 0.5; } }
+@keyframes vesicle-drift-3 { 0%, 100% { opacity: 0.3; } 40% { opacity: 0.8; transform: translate(4px, 6px); } 50% { opacity: 0.5; } }
 
 /* intro + fMRI motif */
 .aw-summary { position: relative; }
@@ -100,24 +110,58 @@ html[data-theme="dark"] .aw-badge.award { color: #f5b34a; }
 </div>
 
 <div class="aw-wave aw-reveal" aria-hidden="true">
-  <svg viewBox="0 0 280 80" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
-    <!-- Left neuron cell body -->
-    <circle class="neuron-body" cx="50" cy="40" r="24" stroke-width="1.8"/>
-    <path class="neuron-axon" d="M74,40 Q100,35 130,40" stroke-width="1.6" fill="none"/>
+  <svg viewBox="0 0 360 100" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+    <!-- LEFT PRESYNAPTIC NEURON -->
+    <!-- Dendrites (left side) -->
+    <path class="dendrite" d="M20,50 Q10,45 8,35"/>
+    <path class="dendrite" d="M20,50 Q10,55 8,65"/>
+    <path class="dendrite" d="M30,60 Q25,70 20,80"/>
     
-    <!-- Synaptic vesicles (animate along axon) -->
-    <circle class="vesicle" cx="80" cy="40" r="2.2"/>
+    <!-- Cell body (soma) -->
+    <circle class="soma" cx="45" cy="50" r="18" stroke-width="1.6"/>
     
-    <!-- Synapse gap -->
-    <line class="synapse-gap" x1="130" y1="30" x2="130" y2="50" stroke-width="1.4" opacity="0.5"/>
-    <line class="synapse-gap" x1="128" y1="32" x2="128" y2="48" stroke-width="1.2" opacity="0.4"/>
+    <!-- Nucleus -->
+    <circle class="nucleus" cx="45" cy="50" r="8" stroke-width="1.2" opacity="0.6"/>
     
-    <!-- Right neuron cell body -->
-    <circle class="neuron-body" cx="210" cy="40" r="24" stroke-width="1.8"/>
-    <path class="neuron-dendrite" d="M186,40 Q160,35 130,40" stroke-width="1.6" fill="none"/>
+    <!-- Axon -->
+    <path class="axon" d="M63,50 Q110,48 145,50" stroke-width="1.6" fill="none"/>
     
-    <!-- Signal pulse (travels from left to right) -->
-    <circle class="signal-pulse" cx="80" cy="40" r="3.5" opacity="0.8"/>
+    <!-- Axon hillock -->
+    <ellipse class="axon-hillock" cx="63" cy="50" rx="5" ry="8" stroke-width="1.4"/>
+    
+    <!-- RIGHT POSTSYNAPTIC NEURON -->
+    <!-- Dendrites (right side) -->
+    <path class="dendrite" d="M215,50 Q225,45 227,35"/>
+    <path class="dendrite" d="M215,50 Q225,55 227,65"/>
+    <path class="dendrite" d="M205,60 Q210,70 215,80"/>
+    
+    <!-- Cell body (soma) -->
+    <circle class="soma" cx="190" cy="50" r="18" stroke-width="1.6"/>
+    
+    <!-- Nucleus -->
+    <circle class="nucleus" cx="190" cy="50" r="8" stroke-width="1.2" opacity="0.6"/>
+    
+    <!-- SYNAPTIC TRANSMISSION -->
+    <!-- Axon terminal -->
+    <circle class="axon-terminal" cx="145" cy="50" r="6" stroke-width="1.4" opacity="0.7"/>
+    
+    <!-- Synaptic vesicles -->
+    <circle class="vesicle vesicle-1" cx="135" cy="42" r="2"/>
+    <circle class="vesicle vesicle-2" cx="140" cy="38" r="2"/>
+    <circle class="vesicle vesicle-3" cx="148" cy="40" r="2"/>
+    
+    <!-- Synaptic cleft (gap) -->
+    <path class="synaptic-cleft" d="M152,48 L155,48" stroke-width="1.2" opacity="0.6"/>
+    <path class="synaptic-cleft" d="M152,52 L155,52" stroke-width="1.2" opacity="0.6"/>
+    
+    <!-- Receptors on postsynaptic membrane -->
+    <circle class="receptor" cx="162" cy="48" r="1.8" opacity="0.5"/>
+    <circle class="receptor" cx="167" cy="48" r="1.8" opacity="0.5"/>
+    <circle class="receptor" cx="162" cy="52" r="1.8" opacity="0.5"/>
+    <circle class="receptor" cx="167" cy="52" r="1.8" opacity="0.5"/>
+    
+    <!-- Signal pulse animation -->
+    <circle class="signal-pulse" cx="80" cy="50" r="3" opacity="0.8"/>
   </svg>
 </div>
 
