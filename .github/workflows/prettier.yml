@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        run: git clone --depth 1 https://github.com/chieh1005/chieh1005.github.io.git .
 
       - name: Install Prettier
         run: npm install -g prettier @shopify/prettier-plugin-liquid
@@ -33,17 +33,12 @@ jobs:
           npm install -g diff2html-cli
           diff2html -i file -s side -F diff.html -- diff.txt
 
-      - name: Upload html diff
-        id: artifact-upload
-        if: ${{ failure() }}
-        uses: actions/upload-artifact@v4
-        with:
-          name: HTML Diff
-          path: diff.html
-          retention-days: 7
-
       - name: Check prettier result
         run: |
           if [ "${{ steps.prettier.outcome }}" = "failure" ]; then
+            echo "Prettier check failed - code formatting issues found"
             exit 1
+          else
+            echo "Prettier check passed - all files properly formatted"
+            exit 0
           fi
