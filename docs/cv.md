@@ -1,8 +1,5 @@
 # Curriculum Vitae
 
-**Shang-Chieh Wang** — Graduate Student
-Email: scwang1005@gmail.com · Location: Taiwan
-
 Graduate Student in Brain Science at National Yang Ming Chiao Tung University, with a strong foundation in Kinesiology from National Tsing Hua University. Specialized in cognitive neuroscience, utilizing fMRI and EEG to investigate how physical activity and resistance exercise influence cognitive functions and emotional regulation in aging populations.
 
 ## Education
@@ -47,7 +44,57 @@ Conducted multiple research projects focusing on how physical activity may influ
 - **Best Oral Presenter Award** (2025) — 12th International Seminar of Sport and Exercise Psychology, Malaysia. Awarded for the research proposal: Comparing the Effects of Low-Intensity Slow Movement and Tonic Force Generation and Moderate-Intensity Resistance Exercise on Cognitive Flexibility in Older Adults.
 - **Academic Excellence Award** (2023) — National Taitung University. 111-1 & 111-2 Academic Excellence Award.
 
-## Publications
+## Selected Coursework
 
-1. Wang, S.-C., Wu, T.-T., et al. (2025). 急性有氧健身運動對高齡者計畫相關執行功能之影響：身體活動量及靜態行為之調節角色. *臺灣運動心理學報 (Bulletin of Sport and Exercise Psychology of Taiwan)*. TSSCI Indexed Journal. [DOI](https://doi.org/10.6497/BSEPT.202503_25(1).0004)
-2. Wu, T.-T., Hung, C.-H., Wang, S.-C., et al. (2025). 比較傳統式與血流限制阻力健身運動對計畫相關執行功能之影響. *運動表現期刊 (Journal of Sports Performance)*. TSSCI Indexed Journal. (Accepted). [DOI](https://doi.org/10.53106/240996512025091202005)
+**Artificial Intelligence & Data Science:**
+- Deep Learning for Biomedical Image Analysis (A+)
+- Fundamentals of AI Data Science (A+)
+- Sports Big Data Analysis: Theory and Practice (A+)
+
+**Neuroscience & Cognition:**
+- Cognitive Neuroscience (A+)
+- Structural Anatomy of the Central Nervous System (A+)
+- Cognitive Neuroscience of Physical Activity Research (A+)
+- Research Methods in Neuroscience (A+)
+
+**Neuroimaging & Brain-Computer Interfaces:**
+- Cognition and EEG Experiments (A+)
+- Advanced Neuroimaging Data Analysis (A+)
+- Functional Magnetic Resonance Imaging (A)
+- Introduction to Brain-Computer Interfaces (A)
+- Advanced Microscopy Imaging Techniques (A+)
+
+## Research Experience
+
+**Brain and Learning Lab, National Yang Ming Chiao Tung University**, Hsinchu, Taiwan
+Advisor: Prof. Jeng-Ren Duann · June 2026 – Present
+
+*Project: Modulation of the Default Mode Network by DBS in Parkinson's Disease* (June 2026 – Present)
+- Analyzed fMRI data.
+
+**Physical Activity and Brain and Mental Health Lab, National Tsing Hua University**, Hsinchu, Taiwan
+Advisor: Prof. Feng-Tzu Chen · Sep. 2022 – June 2026
+
+*Project: Resistance exercise on planning-related cognitive function in older adults* (Feb. 2023 – Aug. 2023)
+- Conducted experimental sessions and cognitive behavioral assessments.
+- Managed data preprocessing and statistical analysis.
+- Revised journal manuscripts.
+
+*Project: Physical activity level and executive function in hearing impairment adolescents* (Sep. 2024 – June 2025)
+- Designed research methodology and experimental protocols.
+- Conducted behavioral and physical activity experiments.
+- Managed data preprocessing and statistical analysis.
+
+*Project: Low-intensity resistance exercise with slow movement and tonic force generation on executive function in older adults: An ERP study (NSTC Undergraduate Research Project)* (Oct. 2025 – Feb. 2026)
+- Conceptualized core research frameworks and hypotheses.
+- Designed electrophysiological and behavioral methodologies.
+- Conducted experiments.
+- Managed data preprocessing and statistical analysis.
+
+## Skills
+
+**Experimental Techniques:**
+- Certification in EEG Operation | Research Center for Education and Mind Sciences, National Tsing Hua University
+
+**Data Analysis & Programming:**
+- MATLAB, Python, EEG Data Processing (EEGLAB), fMRI Data Processing (SPM12, FSL)
