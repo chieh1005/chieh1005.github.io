@@ -1,73 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://chieh1005.github.io/</loc>
-        <lastmod>2026-07-30</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://chieh1005.github.io/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://chieh1005.github.io/zh/"/>
+         <loc>https://chieh1005.github.io/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-        <loc>https://chieh1005.github.io/about/</loc>
-        <lastmod>2026-07-30</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://chieh1005.github.io/about/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://chieh1005.github.io/zh/about/"/>
+         <loc>https://chieh1005.github.io/about/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-        <loc>https://chieh1005.github.io/blog/</loc>
-        <lastmod>2026-07-30</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://chieh1005.github.io/blog/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://chieh1005.github.io/zh/blog/"/>
+         <loc>https://chieh1005.github.io/blog/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-        <loc>https://chieh1005.github.io/cv/</loc>
-        <lastmod>2026-07-30</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://chieh1005.github.io/cv/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://chieh1005.github.io/zh/cv/"/>
+         <loc>https://chieh1005.github.io/cv/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
     <url>
-        <loc>https://chieh1005.github.io/publications/</loc>
-        <lastmod>2026-07-30</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://chieh1005.github.io/publications/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://chieh1005.github.io/zh/publications/"/>
-    </url>
-    <url>
-        <loc>https://chieh1005.github.io/zh/</loc>
-        <lastmod>2026-07-30</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://chieh1005.github.io/zh/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://chieh1005.github.io/"/>
-    </url>
-    <url>
-        <loc>https://chieh1005.github.io/zh/about/</loc>
-        <lastmod>2026-07-30</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://chieh1005.github.io/zh/about/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://chieh1005.github.io/about/"/>
-    </url>
-    <url>
-        <loc>https://chieh1005.github.io/zh/blog/</loc>
-        <lastmod>2026-07-30</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://chieh1005.github.io/zh/blog/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://chieh1005.github.io/blog/"/>
-    </url>
-    <url>
-        <loc>https://chieh1005.github.io/zh/cv/</loc>
-        <lastmod>2026-07-30</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://chieh1005.github.io/zh/cv/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://chieh1005.github.io/cv/"/>
-    </url>
-    <url>
-        <loc>https://chieh1005.github.io/zh/publications/</loc>
-        <lastmod>2026-07-30</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://chieh1005.github.io/zh/publications/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://chieh1005.github.io/publications/"/>
+         <loc>https://chieh1005.github.io/publications/</loc>
+         <lastmod>2026-07-30</lastmod>
     </url>
 </urlset>
