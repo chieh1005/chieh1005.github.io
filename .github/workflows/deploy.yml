@@ -12,8 +12,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install --upgrade pip
-      - run: pip install mkdocs mkdocs-material mkdocs-static-i18n
+      - run: pip install --upgrade pip setuptools wheel
+      - run: pip install -r requirements.txt
       - run: mkdocs build
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
