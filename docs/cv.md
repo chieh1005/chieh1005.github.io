@@ -30,51 +30,93 @@ Graduate Student in Brain Science at National Yang Ming Chiao Tung University, w
 
 ## Selected Coursework
 
-**Artificial Intelligence & Data Science:**
+<div class="cv-timeline" markdown>
+<div class="cv-entry" markdown>
+<div class="cv-title">Artificial Intelligence & Data Science</div>
+
 - Deep Learning for Biomedical Image Analysis (A+)
 - Fundamentals of AI Data Science (A+)
 - Sports Big Data Analysis: Theory and Practice (A+)
+</div>
+<div class="cv-entry" markdown>
+<div class="cv-title">Neuroscience & Cognition</div>
 
-**Neuroscience & Cognition:**
 - Cognitive Neuroscience (A+)
 - Structural Anatomy of the Central Nervous System (A+)
 - Cognitive Neuroscience of Physical Activity Research (A+)
 - Research Methods in Neuroscience (A+)
+</div>
+<div class="cv-entry" markdown>
+<div class="cv-title">Neuroimaging & Brain-Computer Interfaces</div>
 
-**Neuroimaging & Brain-Computer Interfaces:**
 - Cognition and EEG Experiments (A+)
 - Advanced Neuroimaging Data Analysis (A+)
 - Functional Magnetic Resonance Imaging (A)
 - Introduction to Brain-Computer Interfaces (A)
 - Advanced Microscopy Imaging Techniques (A+)
+</div>
+</div>
 
 ## Research Experience
 
-**Brain and Learning Lab** — National Yang Ming Chiao Tung University, Hsinchu, Taiwan
-- *Advisor:* Prof. Jeng-Ren Duann
-- *Modulation of the Default Mode Network by DBS in Parkinson's Disease* (June 2026 – Present)
-  - Analyzed fMRI data.
+<div class="cv-timeline" markdown>
+<div class="cv-entry" markdown>
+<span class="cv-date">June 2026 – Present</span>
+<div class="cv-title">Brain and Learning Lab</div>
+<div class="cv-org">National Yang Ming Chiao Tung University, Hsinchu, Taiwan</div>
 
-**Physical Activity and Brain and Mental Health Lab** — National Tsing Hua University, Hsinchu, Taiwan
-- *Advisor:* Prof. Feng-Tzu Chen (Sep. 2022 – June 2026)
-- *Resistance exercise on planning-related cognitive function in older adults* (Feb. 2023 – Aug. 2023)
-  - Conducted experimental sessions and cognitive behavioral assessments.
-  - Managed data preprocessing and statistical analysis.
-  - Revised journal manuscripts.
-- *Physical activity level and executive function in hearing impairment adolescents* (Sep. 2024 – June 2025)
-  - Designed research methodology and experimental protocols.
-  - Conducted behavioral and physical activity experiments.
-  - Managed data preprocessing and statistical analysis.
-- *Low-intensity resistance exercise with slow movement and tonic force generation on executive function in older adults: An ERP study (NSTC Undergraduate Research Project)* (Oct. 2025 – Feb. 2026)
-  - Conceptualized core research frameworks and hypotheses.
-  - Designed electrophysiological and behavioral methodologies.
-  - Conducted experiments.
-  - Managed data preprocessing and statistical analysis.
+*Advisor:* Prof. Jeng-Ren Duann
+*Project:* Modulation of the Default Mode Network by DBS in Parkinson's Disease
+
+- Analyzed fMRI data.
+</div>
+<div class="cv-entry" markdown>
+<span class="cv-date">Feb. 2023 – Aug. 2023</span>
+<div class="cv-title">Resistance exercise on planning-related cognitive function in older adults</div>
+<div class="cv-org">Physical Activity and Brain and Mental Health Lab, National Tsing Hua University</div>
+
+*Advisor:* Prof. Feng-Tzu Chen
+
+- Conducted experimental sessions and cognitive behavioral assessments.
+- Managed data preprocessing and statistical analysis.
+- Revised journal manuscripts.
+</div>
+<div class="cv-entry" markdown>
+<span class="cv-date">Sep. 2024 – June 2025</span>
+<div class="cv-title">Physical activity level and executive function in hearing impairment adolescents</div>
+<div class="cv-org">Physical Activity and Brain and Mental Health Lab, National Tsing Hua University</div>
+
+*Advisor:* Prof. Feng-Tzu Chen
+
+- Designed research methodology and experimental protocols.
+- Conducted behavioral and physical activity experiments.
+- Managed data preprocessing and statistical analysis.
+</div>
+<div class="cv-entry" markdown>
+<span class="cv-date">Oct. 2025 – Feb. 2026</span>
+<div class="cv-title">Low-intensity resistance exercise with slow movement and tonic force generation on executive function in older adults: An ERP study (NSTC Undergraduate Research Project)</div>
+<div class="cv-org">Physical Activity and Brain and Mental Health Lab, National Tsing Hua University</div>
+
+*Advisor:* Prof. Feng-Tzu Chen
+
+- Conceptualized core research frameworks and hypotheses.
+- Designed electrophysiological and behavioral methodologies.
+- Conducted experiments.
+- Managed data preprocessing and statistical analysis.
+</div>
+</div>
 
 ## Skills
 
-**Experimental Techniques:**
-- Certification in EEG Operation | Research Center for Education and Mind Sciences, National Tsing Hua University
+<div class="cv-timeline" markdown>
+<div class="cv-entry" markdown>
+<div class="cv-title">Experimental Techniques</div>
 
-**Data Analysis & Programming:**
+- Certification in EEG Operation | Research Center for Education and Mind Sciences, National Tsing Hua University
+</div>
+<div class="cv-entry" markdown>
+<div class="cv-title">Data Analysis & Programming</div>
+
 - MATLAB, Python, EEG Data Processing (EEGLAB), fMRI Data Processing (SPM12, FSL)
+</div>
+</div>
