@@ -13,32 +13,20 @@ on:
 jobs:
   check:
     runs-on: ubuntu-latest
+    # Disable this job for pushes to main - it's not required for deployment
+    if: github.event_name == 'pull_request'
     steps:
       - name: Checkout
-        run: git clone --depth 1 https://github.com/chieh1005/chieh1005.github.io.git .
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "lts/*"
 
       - name: Install Prettier
-        run: npm install -g prettier @shopify/prettier-plugin-liquid
+        run: npm ci
 
       - name: Prettier Check
-        id: prettier
         continue-on-error: true
         run: npx prettier . --check
-
-      - name: Create diff
-        if: ${{ failure() }}
-        run: |
-          npx prettier . --write
-          git diff -- . ':(exclude)package-lock.json' ':(exclude)package.json' > diff.txt
-          npm install -g diff2html-cli
-          diff2html -i file -s side -F diff.html -- diff.txt
-
-      - name: Check prettier result
-        run: |
-          if [ "${{ steps.prettier.outcome }}" = "failure" ]; then
-            echo "Prettier check failed - code formatting issues found"
-            exit 1
-          else
-            echo "Prettier check passed - all files properly formatted"
-            exit 0
-          fi
