@@ -1,6 +1,6 @@
 # Shang-Chieh Wang
 
-<img src="assets/images/profile.jpg" alt="Shang-Chieh Wang" style="width:120px;height:120px;border-radius:50%;float:right;margin:0 0 1rem 1.5rem;box-shadow:0 8px 20px rgba(0,0,0,0.15);" loading="lazy">
+<img src="assets/images/profile.jpg" alt="Shang-Chieh Wang" style="width:160px;height:auto;border-radius:8px;float:right;margin:0 0 1rem 1.5rem;box-shadow:0 8px 20px rgba(0,0,0,0.15);" loading="lazy">
 
 Incoming M.Ed. Student in Brain Science · NYCU | B.Ed. in Kinesiology · NTHU
 

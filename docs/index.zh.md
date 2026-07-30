@@ -1,6 +1,6 @@
 # 王上杰
 
-<img src="assets/images/profile.jpg" alt="王上杰" style="width:120px;height:120px;border-radius:50%;float:right;margin:0 0 1rem 1.5rem;box-shadow:0 8px 20px rgba(0,0,0,0.15);" loading="lazy">
+<img src="assets/images/profile.jpg" alt="王上杰" style="width:160px;height:auto;border-radius:8px;float:right;margin:0 0 1rem 1.5rem;box-shadow:0 8px 20px rgba(0,0,0,0.15);" loading="lazy">
 
 即將升學之腦科學碩士班學生 · 陽明交通大學 | 運動科學系學士 · 清華大學
 
