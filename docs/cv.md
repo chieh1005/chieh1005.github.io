@@ -23,11 +23,6 @@ Graduate Student in Brain Science at National Yang Ming Chiao Tung University, w
 </div>
 </div>
 
-## Awards
-
-- **Best Oral Presenter Award** (2025) — 12th International Seminar of Sport and Exercise Psychology, Malaysia. Awarded for the research proposal: Comparing the Effects of Low-Intensity Slow Movement and Tonic Force Generation and Moderate-Intensity Resistance Exercise on Cognitive Flexibility in Older Adults.
-- **Academic Excellence Award** (2023) — National Taitung University. 111-1 & 111-2 Academic Excellence Award.
-
 ## Selected Coursework
 
 <div class="cv-timeline" markdown>
@@ -61,44 +56,31 @@ Graduate Student in Brain Science at National Yang Ming Chiao Tung University, w
 
 <div class="cv-timeline" markdown>
 <div class="cv-entry" markdown>
-<span class="cv-date">June 2026 – Present</span>
 <div class="cv-title">Brain and Learning Lab</div>
 <div class="cv-org">National Yang Ming Chiao Tung University, Hsinchu, Taiwan</div>
 
 *Advisor:* Prof. Jeng-Ren Duann
-*Project:* Modulation of the Default Mode Network by DBS in Parkinson's Disease
 
+**Modulation of the Default Mode Network by DBS in Parkinson's Disease** (June 2026 – Present)
 - Analyzed fMRI data.
 </div>
 <div class="cv-entry" markdown>
-<span class="cv-date">Feb. 2023 – Aug. 2023</span>
-<div class="cv-title">Resistance exercise on planning-related cognitive function in older adults</div>
-<div class="cv-org">Physical Activity and Brain and Mental Health Lab, National Tsing Hua University</div>
+<div class="cv-title">Physical Activity and Brain and Mental Health Lab</div>
+<div class="cv-org">National Tsing Hua University, Hsinchu, Taiwan</div>
 
-*Advisor:* Prof. Feng-Tzu Chen
+*Advisor:* Prof. Feng-Tzu Chen (Sep. 2022 – June 2026)
 
+**Resistance exercise on planning-related cognitive function in older adults** (Feb. 2023 – Aug. 2023)
 - Conducted experimental sessions and cognitive behavioral assessments.
 - Managed data preprocessing and statistical analysis.
 - Revised journal manuscripts.
-</div>
-<div class="cv-entry" markdown>
-<span class="cv-date">Sep. 2024 – June 2025</span>
-<div class="cv-title">Physical activity level and executive function in hearing impairment adolescents</div>
-<div class="cv-org">Physical Activity and Brain and Mental Health Lab, National Tsing Hua University</div>
 
-*Advisor:* Prof. Feng-Tzu Chen
-
+**Physical activity level and executive function in hearing impairment adolescents** (Sep. 2024 – June 2025)
 - Designed research methodology and experimental protocols.
 - Conducted behavioral and physical activity experiments.
 - Managed data preprocessing and statistical analysis.
-</div>
-<div class="cv-entry" markdown>
-<span class="cv-date">Oct. 2025 – Feb. 2026</span>
-<div class="cv-title">Low-intensity resistance exercise with slow movement and tonic force generation on executive function in older adults: An ERP study (NSTC Undergraduate Research Project)</div>
-<div class="cv-org">Physical Activity and Brain and Mental Health Lab, National Tsing Hua University</div>
 
-*Advisor:* Prof. Feng-Tzu Chen
-
+**Low-intensity resistance exercise with slow movement and tonic force generation on executive function in older adults: An ERP study (NSTC Undergraduate Research Project)** (Oct. 2025 – Feb. 2026)
 - Conceptualized core research frameworks and hypotheses.
 - Designed electrophysiological and behavioral methodologies.
 - Conducted experiments.
@@ -120,3 +102,8 @@ Graduate Student in Brain Science at National Yang Ming Chiao Tung University, w
 - MATLAB, Python, EEG Data Processing (EEGLAB), fMRI Data Processing (SPM12, FSL)
 </div>
 </div>
+
+## Awards
+
+- **Best Oral Presenter Award** (2025) — 12th International Seminar of Sport and Exercise Psychology, Malaysia. Awarded for the research proposal: Comparing the Effects of Low-Intensity Slow Movement and Tonic Force Generation and Moderate-Intensity Resistance Exercise on Cognitive Flexibility in Older Adults.
+- **Academic Excellence Award** (2023) — National Taitung University. 111-1 & 111-2 Academic Excellence Award.
