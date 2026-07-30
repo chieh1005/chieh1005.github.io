@@ -1,62 +1,59 @@
 site_name: Shang-Chieh Wang
-site_description: Graduate Student in Brain Science at NYCU | Cognitive Neuroscience & Neuroimaging
-site_author: Shang-Chieh Wang
 site_url: https://chieh1005.github.io/
+site_description: Graduate Student in Brain Science · Cognitive Neuroscience · fMRI & EEG
+repo_name: chieh1005/chieh1005.github.io
+repo_url: https://github.com/chieh1005/chieh1005.github.io
 
 theme:
   name: material
   palette:
-    - scheme: light
-      primary: blue
-      accent: light blue
-      toggle:
-        icon: material/lightbulb-outline
-        name: Switch to dark mode
-    - scheme: dark
-      primary: blue
-      accent: light blue
-      toggle:
-        icon: material/lightbulb
-        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle: {icon: material/toggle-switch-off-outline, name: Switch to dark mode}
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle: {icon: material/toggle-switch, name: Switch to light mode}
   font:
     text: Roboto
     code: Roboto Mono
   features:
-    - navigation.instant
-    - navigation.tracking
     - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.expand
     - navigation.top
-    - toc.integrate
+    - navigation.footer
+    - toc.follow
+    - content.code.copy
     - search.suggest
     - search.highlight
-    - content.code.copy
+
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
   - search
-
-markdown_extensions:
-  - attr_list
-  - md_in_html
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.highlight:
-      use_pygments: true
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.arithmatex
-  - toc:
-      permalink: true
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: zh
+          name: 中文
+          build: true
 
 nav:
   - Home: index.md
-  - About: about.md
   - CV: cv.md
   - Publications: publications.md
-  - Blog: blog.md
 
-copyright: Copyright &copy; 2025 Shang-Chieh Wang. Powered by MkDocs with Material theme.
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences

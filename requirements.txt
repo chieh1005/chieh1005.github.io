@@ -1,4 +1,2 @@
-nbconvert
-pyyaml
-rendercv[full]
-scholarly
+﻿mkdocs-material
+mkdocs-static-i18n
