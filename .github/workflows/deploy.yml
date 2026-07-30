@@ -65,43 +65,43 @@ jobs:
     # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout ğŸ›ï¸
-        uses: actions/checkout@v4
-      - name: Setup Ruby ğŸ’
+      - name: Checkout ??ï¸?
+        uses: actions/checkout@v4.2.0
+      - name: Setup Ruby ??
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3.5"
           bundler-cache: true
-      - name: Setup Python ğŸ
-        uses: actions/setup-python@v5
+      - name: Setup Python ??
+        uses: actions/setup-python@v5.2.0
         with:
           python-version: "3.13"
           cache: "pip" # caching pip dependencies
-      - name: Setup Node ğŸ§°
-        uses: actions/setup-node@v4
+      - name: Setup Node ?§°
+        uses: actions/setup-node@v4.0.2
         with:
           node-version: "22"
           cache: "npm"
-      - name: Install JS deps ğŸ“¦
+      - name: Install JS deps ?“¦
         run: npm ci
-      - name: Update _config.yml âš™ï¸
+      - name: Update _config.yml ?™ï?
         uses: fjogeleit/yaml-update-action@main
         with:
           commitChange: false
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
-      - name: Install and Build ğŸ”§
+      - name: Install and Build ?”§
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
           bundle exec jekyll build
-      - name: Purge unused CSS ğŸ§¹
+      - name: Purge unused CSS ?§¹
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
-      - name: Deploy ğŸš€
+      - name: Deploy ??
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
