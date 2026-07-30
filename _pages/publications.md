@@ -7,6 +7,11 @@ nav: true
 nav_order: 3
 ---
 
+<div class="language-toggle" style="position: fixed; top: 20px; right: 20px; z-index: 1000; background: var(--global-card-bg-color); border: 1px solid var(--global-divider-color); border-radius: 50px; padding: 0.5rem 0.75rem; display: flex; gap: 0.5rem;">
+  <button class="lang-btn active" data-lang="en" style="padding: 0.5rem 1rem; border: none; background: transparent; cursor: pointer; font-size: 0.9rem; font-weight: 500; border-radius: 40px; transition: all 0.3s ease; color: var(--global-text-color-light);">English</button>
+  <button class="lang-btn" data-lang="zh" style="padding: 0.5rem 1rem; border: none; background: transparent; cursor: pointer; font-size: 0.9rem; font-weight: 500; border-radius: 40px; transition: all 0.3s ease; color: var(--global-text-color-light);">中文</button>
+</div>
+
 <style>
 /* ====== shared design system (matches the home page) ====== */
 :root {
@@ -202,8 +207,10 @@ html[data-theme="dark"] .aw-badge.award { color: #f5b34a; }
 
 </div>
 
+<script src="{{ '/assets/js/language-toggle.js' | relative_url }}"></script>
 <script>
 (function () {
+  // Scroll reveal animation
   var els = document.querySelectorAll('.aw-reveal');
   if (!('IntersectionObserver' in window)) { els.forEach(function (el){ el.classList.add('in'); }); return; }
   var io = new IntersectionObserver(function (entries) {

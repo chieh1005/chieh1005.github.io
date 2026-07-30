@@ -290,17 +290,87 @@ html[data-theme="dark"] {
   .aw-reveal { opacity: 1; transform: none; transition: none; }
   .aw-wave .signal-pulse { animation: none; opacity: 0.6; }
 }
+
+/* ---------- Language Toggle ---------- */
+.language-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 50px;
+  padding: 0.5rem 0.75rem;
+  display: flex;
+  gap: 0.5rem;
+}
+.lang-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 40px;
+  transition: all 0.3s ease;
+  color: var(--global-text-color-light);
+}
+.lang-btn.active {
+  background: var(--aw-accent);
+  color: #fff;
+  font-weight: 600;
+}
+.lang-btn:hover:not(.active) {
+  background: var(--aw-accent-soft);
+}
+
+.lang-content {
+  display: none;
+}
+.lang-content.active {
+  display: block;
+}
+
+@media (max-width: 640px) {
+  .language-toggle {
+    top: 10px;
+    right: 10px;
+    padding: 0.4rem 0.5rem;
+  }
+  .lang-btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+  }
+}
 </style>
+
+<div class="language-toggle">
+  <button class="lang-btn active" data-lang="en">English</button>
+  <button class="lang-btn" data-lang="zh">中文</button>
+</div>
 
 <div class="aw" markdown="0">
 
-<p class="aw-lead aw-reveal">
-  I'm a graduate student in <span class="accent">Brain Science</span> at National Yang Ming Chiao Tung University, Taiwan — bridging a background in kinesiology with cognitive neuroscience and statistical neuroimaging to understand how the brain ages, and how movement can protect it.
-</p>
+<div class="lang-content active" data-lang="en">
+  <p class="aw-lead aw-reveal">
+    I'm a graduate student in <span class="accent">Brain Science</span> at National Yang Ming Chiao Tung University, Taiwan — bridging a background in kinesiology with cognitive neuroscience and statistical neuroimaging to understand how the brain ages, and how movement can protect it.
+  </p>
 
-<div class="aw-contact aw-reveal">
-  <p><strong>Email:</strong> <a href="mailto:scwang1005@gmail.com">scwang1005@gmail.com</a></p>
-  <p><strong>GitHub:</strong> <a href="https://github.com/chieh1005" target="_blank" rel="noopener">github.com/chieh1005</a></p>
+  <div class="aw-contact aw-reveal">
+    <p><strong>Email:</strong> <a href="mailto:scwang1005@gmail.com">scwang1005@gmail.com</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/chieh1005" target="_blank" rel="noopener">github.com/chieh1005</a></p>
+  </div>
+</div>
+
+<div class="lang-content" data-lang="zh">
+  <p class="aw-lead aw-reveal">
+    我是國立陽明交通大學腦科學研究所的研究生——結合運動科學與認知神經科學的背景，利用神經影像統計學研究大腦老化機制，以及運動如何保護我們的認知能力。
+  </p>
+
+  <div class="aw-contact aw-reveal">
+    <p><strong>信箱：</strong> <a href="mailto:scwang1005@gmail.com">scwang1005@gmail.com</a></p>
+    <p><strong>GitHub：</strong> <a href="https://github.com/chieh1005" target="_blank" rel="noopener">github.com/chieh1005</a></p>
+  </div>
 </div>
 
 <div class="aw-wave aw-reveal" aria-hidden="true">
@@ -310,57 +380,142 @@ html[data-theme="dark"] {
   </svg>
 </div>
 
-<section class="aw-section aw-reveal">
-  <span class="aw-eyebrow">Research Focus</span>
-  <h2 class="aw-h">Where I spend my curiosity.</h2>
-  <p class="aw-sub">My work sits at the intersection of clinical neuroscience and human movement — using brain imaging to probe the mechanisms of neurodegenerative disease.</p>
-  <div class="aw-grid">
-    <div class="aw-card">
-      <h3>Cognitive Neuroscience</h3>
-      <p>How attention, memory, and executive function reshape themselves across the lifespan.</p>
+<!-- English Content -->
+<div class="lang-content active" data-lang="en">
+  <section class="aw-section aw-reveal">
+    <span class="aw-eyebrow">Research Focus</span>
+    <h2 class="aw-h">Where I spend my curiosity.</h2>
+    <p class="aw-sub">My work sits at the intersection of clinical neuroscience and human movement — using brain imaging to probe the mechanisms of neurodegenerative disease.</p>
+    <div class="aw-grid">
+      <div class="aw-card">
+        <h3>Cognitive Neuroscience</h3>
+        <p>How attention, memory, and executive function reshape themselves across the lifespan.</p>
+      </div>
+      <div class="aw-card">
+        <h3>Neuroimaging · fMRI &amp; EEG</h3>
+        <p>fMRI &amp; EEG pipelines to map brain structure, function, and connectivity.</p>
+      </div>
+      <div class="aw-card">
+        <h3>Exercise, Psychology &amp; Aging</h3>
+        <p>Whether physical activity can slow cognitive decline and neurodegeneration.</p>
+      </div>
     </div>
-    <div class="aw-card">
-      <h3>Neuroimaging · fMRI &amp; EEG</h3>
-      <p>fMRI &amp; EEG pipelines to map brain structure, function, and connectivity.</p>
-    </div>
-    <div class="aw-card">
-      <h3>Exercise, Psychology &amp; Aging</h3>
-      <p>Whether physical activity can slow cognitive decline and neurodegeneration.</p>
-    </div>
-  </div>
-</section>
+  </section>
 
-<section class="aw-section aw-reveal">
-  <span class="aw-eyebrow">Journey</span>
-  <h2 class="aw-h">From movement to the mind.</h2>
-  <p class="aw-sub">A path that started with the body and grew into the brain.</p>
-  <div class="aw-journey">
-    <div class="aw-step">
-      <div class="yr">B.Ed.</div>
-      <div class="deg">Kinesiology</div>
-      <div class="ins">National Tsing Hua University</div>
+  <section class="aw-section aw-reveal">
+    <span class="aw-eyebrow">Journey</span>
+    <h2 class="aw-h">From movement to the mind.</h2>
+    <p class="aw-sub">A path that started with the body and grew into the brain.</p>
+    <div class="aw-journey">
+      <div class="aw-step">
+        <div class="yr">B.Ed.</div>
+        <div class="deg">Kinesiology</div>
+        <div class="ins">National Tsing Hua University</div>
+      </div>
+      <div class="aw-arrow">→</div>
+      <div class="aw-step">
+        <div class="yr">M.Ed. · INCOMING</div>
+        <div class="deg">Brain Science</div>
+        <div class="ins">National Yang Ming Chiao Tung University</div>
+      </div>
     </div>
-    <div class="aw-arrow">→</div>
-    <div class="aw-step">
-      <div class="yr">M.Ed. · INCOMING</div>
-      <div class="deg">Brain Science</div>
-      <div class="ins">National Yang Ming Chiao Tung University</div>
-    </div>
-  </div>
-</section>
+  </section>
 
-<section class="aw-section aw-reveal">
-  <span class="aw-eyebrow">Get in touch</span>
-  <h2 class="aw-h">Let's talk brains.</h2>
-  <p class="aw-sub">Open to collaborations in neuroimaging, exercise neuroscience, and healthy aging.</p>
-  <a class="aw-cta" href="{{ '/cv/' | relative_url }}">View CV</a>
-  <a class="aw-cta ghost" href="{{ '/publications/' | relative_url }}">Publications</a>
-</section>
+  <section class="aw-section aw-reveal">
+    <span class="aw-eyebrow">Get in touch</span>
+    <h2 class="aw-h">Let's talk brains.</h2>
+    <p class="aw-sub">Open to collaborations in neuroimaging, exercise neuroscience, and healthy aging.</p>
+    <a class="aw-cta" href="{{ '/cv/' | relative_url }}">View CV</a>
+    <a class="aw-cta ghost" href="{{ '/publications/' | relative_url }}">Publications</a>
+  </section>
+</div>
+
+<!-- Chinese Content -->
+<div class="lang-content" data-lang="zh">
+  <section class="aw-section aw-reveal">
+    <span class="aw-eyebrow">研究焦點</span>
+    <h2 class="aw-h">我把好奇心放在哪裡。</h2>
+    <p class="aw-sub">我的研究位於臨床神經科學與人體運動的交叉口——利用大腦成像探索神經退行性疾病的機制。</p>
+    <div class="aw-grid">
+      <div class="aw-card">
+        <h3>認知神經科學</h3>
+        <p>注意力、記憶與執行功能在生命全程如何變化與重組。</p>
+      </div>
+      <div class="aw-card">
+        <h3>神經成像 · fMRI 與 EEG</h3>
+        <p>建立 fMRI 和 EEG 分析管道，映射腦結構、功能與連結。</p>
+      </div>
+      <div class="aw-card">
+        <h3>運動、心理學與老化</h3>
+        <p>體能活動是否能減緩認知衰退與神經退化。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="aw-section aw-reveal">
+    <span class="aw-eyebrow">學習歷程</span>
+    <h2 class="aw-h">從身體到心智。</h2>
+    <p class="aw-sub">從運動科學開始，最後走向了腦科學的研究之路。</p>
+    <div class="aw-journey">
+      <div class="aw-step">
+        <div class="yr">學士</div>
+        <div class="deg">運動科學</div>
+        <div class="ins">國立清華大學</div>
+      </div>
+      <div class="aw-arrow">→</div>
+      <div class="aw-step">
+        <div class="yr">碩士 · 進行中</div>
+        <div class="deg">腦科學</div>
+        <div class="ins">國立陽明交通大學</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="aw-section aw-reveal">
+    <span class="aw-eyebrow">聯絡合作</span>
+    <h2 class="aw-h">讓我們聊聊大腦。</h2>
+    <p class="aw-sub">對神經成像、運動神經科學和健康老化的合作開放。</p>
+    <a class="aw-cta" href="{{ '/cv/' | relative_url }}">查看履歷</a>
+    <a class="aw-cta ghost" href="{{ '/publications/' | relative_url }}">著作</a>
+  </section>
+</div>
 
 </div>
 
+<script src="{{ '/assets/js/language-toggle.js' | relative_url }}"></script>
 <script>
 (function () {
+  // Language toggle functionality
+  var langBtns = document.querySelectorAll('.lang-btn');
+  var langContents = document.querySelectorAll('.lang-content');
+  var currentLang = localStorage.getItem('preferred-lang') || 'en';
+  
+  function setLanguage(lang) {
+    localStorage.setItem('preferred-lang', lang);
+    langBtns.forEach(function (btn) { btn.classList.remove('active'); });
+    langContents.forEach(function (content) { content.classList.remove('active'); });
+    
+    document.querySelector('[data-lang="' + lang + '"].lang-btn').classList.add('active');
+    document.querySelector('[data-lang="' + lang + '"].lang-content').classList.add('active');
+    
+    // Re-trigger animation for reveal elements
+    setTimeout(function () {
+      document.querySelectorAll('.aw-reveal').forEach(function (el) {
+        el.classList.remove('in');
+      });
+    }, 50);
+  }
+  
+  langBtns.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      setLanguage(this.getAttribute('data-lang'));
+    });
+  });
+  
+  // Initialize language
+  setLanguage(currentLang);
+  
+  // Scroll reveal animation
   var els = document.querySelectorAll('.aw-reveal');
   if (!('IntersectionObserver' in window)) {
     els.forEach(function (el) { el.classList.add('in'); });

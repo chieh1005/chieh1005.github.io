@@ -4,8 +4,13 @@ title: Curriculum Vitae
 permalink: /cv/
 description: Graduate Student in Brain Science · Cognitive Neuroscience · fMRI &amp; EEG
 nav: true
-nav_order: 2
+nav_order: 1
 ---
+
+<div class="language-toggle" style="position: fixed; top: 20px; right: 20px; z-index: 1000; background: var(--global-card-bg-color); border: 1px solid var(--global-divider-color); border-radius: 50px; padding: 0.5rem 0.75rem; display: flex; gap: 0.5rem;">
+  <button class="lang-btn active" data-lang="en" style="padding: 0.5rem 1rem; border: none; background: transparent; cursor: pointer; font-size: 0.9rem; font-weight: 500; border-radius: 40px; transition: all 0.3s ease; color: var(--global-text-color-light);">English</button>
+  <button class="lang-btn" data-lang="zh" style="padding: 0.5rem 1rem; border: none; background: transparent; cursor: pointer; font-size: 0.9rem; font-weight: 500; border-radius: 40px; transition: all 0.3s ease; color: var(--global-text-color-light);">中文</button>
+</div>
 
 <style>
 /* ====== shared design system (matches the home page) ====== */
@@ -237,6 +242,7 @@ html[data-theme="dark"] {
 
 </div>
 
+<script src="{{ '/assets/js/language-toggle.js' | relative_url }}"></script>
 <script>
 (function () {
   var els = document.querySelectorAll('.aw-reveal');
