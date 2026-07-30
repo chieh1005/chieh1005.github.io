@@ -7,9 +7,55 @@ nav: true
 nav_order: 1
 ---
 
-<div class="language-toggle" style="position: fixed; top: 20px; right: 20px; z-index: 1000; background: var(--global-card-bg-color); border: 1px solid var(--global-divider-color); border-radius: 50px; padding: 0.5rem 0.75rem; display: flex; gap: 0.5rem;">
-  <button class="lang-btn active" data-lang="en" style="padding: 0.5rem 1rem; border: none; background: transparent; cursor: pointer; font-size: 0.9rem; font-weight: 500; border-radius: 40px; transition: all 0.3s ease; color: var(--global-text-color-light);">English</button>
-  <button class="lang-btn" data-lang="zh" style="padding: 0.5rem 1rem; border: none; background: transparent; cursor: pointer; font-size: 0.9rem; font-weight: 500; border-radius: 40px; transition: all 0.3s ease; color: var(--global-text-color-light);">中文</button>
+<style>
+.language-toggle {
+  display: inline-flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  padding: 0.75rem 1rem;
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+html[data-theme="dark"] .language-toggle {
+  background: rgba(30, 30, 35, 0.95);
+}
+
+.lang-btn {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border-radius: 40px;
+  transition: all 0.3s ease;
+  color: var(--global-text-color-light);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "思源黑體", sans-serif;
+}
+
+.lang-btn.active {
+  background: var(--aw-accent);
+  color: #fff;
+  font-weight: 600;
+}
+
+.lang-btn:hover:not(.active) {
+  background: var(--aw-accent-soft);
+  color: var(--global-text-color);
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "思源黑體", "Noto Sans CJK SC", sans-serif;
+}
+</style>
+
+<div class="language-toggle">
+  <button class="lang-btn active" data-lang="en">English</button>
+  <button class="lang-btn" data-lang="zh">中文</button>
 </div>
 
 <style>
