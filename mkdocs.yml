@@ -14,8 +14,8 @@ theme:
       toggle: {icon: material/toggle-switch-off-outline, name: Switch to dark mode}
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: black
-      accent: indigo
+      primary: indigo
+      accent: light-blue
       toggle: {icon: material/toggle-switch, name: Switch to light mode}
   font:
     text: Roboto
@@ -28,9 +28,18 @@ theme:
     - content.code.copy
     - search.suggest
     - search.highlight
+    - navigation.tabs.sticky
+    - content.tooltips
 
 extra_css:
   - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/chieh1005
+    - icon: fontawesome/solid/envelope
+      link: mailto:scwang1005@gmail.com
 
 plugins:
   - search
@@ -47,3 +56,6 @@ markdown_extensions:
   - md_in_html
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

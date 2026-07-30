@@ -1,5 +1,7 @@
 # Shang-Chieh Wang
 
+<img src="assets/images/profile-placeholder.svg" alt="Shang-Chieh Wang" style="width:120px;height:120px;border-radius:50%;float:right;margin:0 0 1rem 1.5rem;box-shadow:0 8px 20px rgba(0,0,0,0.15);">
+
 Incoming M.Ed. Student in Brain Science · NYCU | B.Ed. in Kinesiology · NTHU
 
 **Institute of Education, Major in Brain Science, National Yang Ming Chiao Tung University, Taiwan**
@@ -26,4 +28,5 @@ My work sits at the intersection of clinical neuroscience and human movement —
 
 Open to collaborations in neuroimaging, exercise neuroscience, and healthy aging.
 
-[View CV](cv.md) · [Publications](publications.md)
+[View CV](cv.md){ .md-button }
+[Publications](publications.md){ .md-button .md-button--secondary }
