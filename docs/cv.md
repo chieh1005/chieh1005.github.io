@@ -23,22 +23,6 @@ Graduate Student in Brain Science at National Yang Ming Chiao Tung University, w
 </div>
 </div>
 
-## Experience
-
-<div class="cv-timeline" markdown>
-<div class="cv-entry" markdown>
-<span class="cv-date">2024 – 2026</span>
-<div class="cv-title">Undergraduate Researcher</div>
-<div class="cv-org">National Tsing Hua University, Taiwan</div>
-
-Conducted multiple research projects focusing on how physical activity may influence brain function in special populations in order to develop personalized exercise prescriptions for them.
-
-- The Effect of Low-intensity Resistance Exercise with Slow Movement and Tonic Force Generation on Cognitive Flexibility in Older Adults (NSTC Project): Designed methodology, executed standardized experiments (n=45), and analyzed data.
-- Effects of Volume-Matched Acute Exercise on Metacognition in Late Middle-Aged Adults: Administered experiments, analyzed data, and drafted journal articles.
-- Investigating the Relationship Between Physical Activity and Executive Function in Adolescents with Hearing Impairments: Designed methodology, executed experiments, and analyzed data.
-</div>
-</div>
-
 ## Awards
 
 - **Best Oral Presenter Award** (2025) — 12th International Seminar of Sport and Exercise Psychology, Malaysia. Awarded for the research proposal: Comparing the Effects of Low-Intensity Slow Movement and Tonic Force Generation and Moderate-Intensity Resistance Exercise on Cognitive Flexibility in Older Adults.
@@ -66,30 +50,26 @@ Conducted multiple research projects focusing on how physical activity may influ
 
 ## Research Experience
 
-**Brain and Learning Lab, National Yang Ming Chiao Tung University**, Hsinchu, Taiwan
-Advisor: Prof. Jeng-Ren Duann · June 2026 – Present
+**Brain and Learning Lab** — National Yang Ming Chiao Tung University, Hsinchu, Taiwan
+- *Advisor:* Prof. Jeng-Ren Duann
+- *Modulation of the Default Mode Network by DBS in Parkinson's Disease* (June 2026 – Present)
+  - Analyzed fMRI data.
 
-*Project: Modulation of the Default Mode Network by DBS in Parkinson's Disease* (June 2026 – Present)
-- Analyzed fMRI data.
-
-**Physical Activity and Brain and Mental Health Lab, National Tsing Hua University**, Hsinchu, Taiwan
-Advisor: Prof. Feng-Tzu Chen · Sep. 2022 – June 2026
-
-*Project: Resistance exercise on planning-related cognitive function in older adults* (Feb. 2023 – Aug. 2023)
-- Conducted experimental sessions and cognitive behavioral assessments.
-- Managed data preprocessing and statistical analysis.
-- Revised journal manuscripts.
-
-*Project: Physical activity level and executive function in hearing impairment adolescents* (Sep. 2024 – June 2025)
-- Designed research methodology and experimental protocols.
-- Conducted behavioral and physical activity experiments.
-- Managed data preprocessing and statistical analysis.
-
-*Project: Low-intensity resistance exercise with slow movement and tonic force generation on executive function in older adults: An ERP study (NSTC Undergraduate Research Project)* (Oct. 2025 – Feb. 2026)
-- Conceptualized core research frameworks and hypotheses.
-- Designed electrophysiological and behavioral methodologies.
-- Conducted experiments.
-- Managed data preprocessing and statistical analysis.
+**Physical Activity and Brain and Mental Health Lab** — National Tsing Hua University, Hsinchu, Taiwan
+- *Advisor:* Prof. Feng-Tzu Chen (Sep. 2022 – June 2026)
+- *Resistance exercise on planning-related cognitive function in older adults* (Feb. 2023 – Aug. 2023)
+  - Conducted experimental sessions and cognitive behavioral assessments.
+  - Managed data preprocessing and statistical analysis.
+  - Revised journal manuscripts.
+- *Physical activity level and executive function in hearing impairment adolescents* (Sep. 2024 – June 2025)
+  - Designed research methodology and experimental protocols.
+  - Conducted behavioral and physical activity experiments.
+  - Managed data preprocessing and statistical analysis.
+- *Low-intensity resistance exercise with slow movement and tonic force generation on executive function in older adults: An ERP study (NSTC Undergraduate Research Project)* (Oct. 2025 – Feb. 2026)
+  - Conceptualized core research frameworks and hypotheses.
+  - Designed electrophysiological and behavioral methodologies.
+  - Conducted experiments.
+  - Managed data preprocessing and statistical analysis.
 
 ## Skills
 

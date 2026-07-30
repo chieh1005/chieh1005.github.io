@@ -19,14 +19,3 @@ My work sits at the intersection of clinical neuroscience and human movement —
 - **Neuroimaging · fMRI & EEG** — fMRI & EEG pipelines to map brain structure, function, and connectivity.
 - **Exercise, Psychology & Aging** — Whether physical activity can slow cognitive decline and neurodegeneration.
 
-## Journey
-
-- **B.Ed., Kinesiology** — National Tsing Hua University
-- **M.Ed. (Incoming), Brain Science** — National Yang Ming Chiao Tung University
-
-## Get in Touch
-
-Open to collaborations in neuroimaging, exercise neuroscience, and healthy aging.
-
-[View CV](cv.md){ .md-button }
-[Publications](publications.md){ .md-button .md-button--secondary }
