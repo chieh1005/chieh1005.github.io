@@ -1,4 +1,4 @@
-name: Update TOCs
+﻿name: Update TOCs
 # This workflow automatically updates the Table of Contents (TOC) in markdown files
 
 on:
@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4.2.0
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0 # OR "2" -> To retrieve the preceding commit.
 

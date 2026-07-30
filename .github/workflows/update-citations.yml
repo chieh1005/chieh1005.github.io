@@ -1,4 +1,4 @@
-name: Update Google Scholar Citations
+ï»¿name: Update Google Scholar Citations
 
 on:
   schedule:
@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4.2.0
+        uses: actions/checkout@v4
       # See docs/CUSTOMIZE.md for details on how to set up PAT for triggering subsequent workflows
       #        with:
       #          token: ${{ secrets.PAT }}
@@ -25,14 +25,14 @@ jobs:
 
       - name: Install dependencies
         run: |
-          echo "?”§ Installing dependencies..."
+          echo "??? Installing dependencies..."
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
       - name: Save current citations.yml hash
         id: before
         run: |
-          echo "?“¦ Checking existing citations.yml hash..."
+          echo "??? Checking existing citations.yml hash..."
           if [ -f _data/citations.yml ]; then
             sha_before=$(sha256sum _data/citations.yml | awk '{print $1}')
             echo "sha_before=$sha_before" >> $GITHUB_OUTPUT
@@ -81,21 +81,21 @@ jobs:
             echo "??_data/citations.yml was updated."
             echo "??_data/citations.yml was updated." >> $GITHUB_STEP_SUMMARY
           else
-            echo "?¹ï? _data/citations.yml was not changed."
-            echo "?¹ï? _data/citations.yml was not changed." >> $GITHUB_STEP_SUMMARY
+            echo "???? _data/citations.yml was not changed."
+            echo "???? _data/citations.yml was not changed." >> $GITHUB_STEP_SUMMARY
           fi
 
       - name: Configure Git
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          echo "?”§ Git configured."
+          echo "??? Git configured."
 
       - name: Commit and push if changed
         run: |
           git add _data/citations.yml
           git diff --staged --quiet || (
-            echo "?“¤ Committing and pushing changes..."
+            echo "??? Committing and pushing changes..."
             git commit -m "Update Google Scholar citations"
             git push
           )

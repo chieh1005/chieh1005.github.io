@@ -1,4 +1,4 @@
-name: Check for broken links
+﻿name: Check for broken links
 
 on:
   push:
@@ -44,7 +44,7 @@ jobs:
     # only run on the main repo
     if: github.repository == 'alshedivat/al-folio'
     steps:
-      - uses: actions/checkout@v4.2.0
+      - uses: actions/checkout@v4
 
       - name: Link Checker ??
         uses: lycheeverse/lychee-action@v2.0.2

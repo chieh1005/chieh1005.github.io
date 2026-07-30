@@ -1,4 +1,4 @@
-name: Upgrade contract checks
+ï»¿name: Upgrade contract checks
 
 on:
   push:
@@ -38,8 +38,8 @@ jobs:
   upgrade-check:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout ??ï¸?
-        uses: actions/checkout@v4.2.0
+      - name: Checkout ????
+        uses: actions/checkout@v4
 
       - name: Setup Ruby ??
         uses: ruby/setup-ruby@v1
@@ -47,12 +47,12 @@ jobs:
           ruby-version: "3.3.5"
           bundler-cache: true
 
-      - name: Run upgrade audit ?§ª
+      - name: Run upgrade audit ???
         run: bundle exec al-folio upgrade audit
 
       - name: Upload upgrade report ??
         if: always()
-        uses: actions/upload-artifact@v4.3.6
+        uses: actions/upload-artifact@v4
         with:
           name: al-folio-upgrade-report
           path: al-folio-upgrade-report.md
