@@ -1,7 +1,5 @@
 # Curriculum Vitae
 
-Graduate Student in Brain Science at National Yang Ming Chiao Tung University, with a strong foundation in Kinesiology from National Tsing Hua University. Specialized in cognitive neuroscience, utilizing fMRI and EEG to investigate how physical activity and resistance exercise influence cognitive functions and emotional regulation in aging populations.
-
 ## Education
 
 <div class="cv-timeline" markdown>
@@ -62,7 +60,10 @@ Graduate Student in Brain Science at National Yang Ming Chiao Tung University, w
 *Advisor:* Prof. Jeng-Ren Duann
 
 **Modulation of the Default Mode Network by DBS in Parkinson's Disease** (June 2026 – Present)
-  - Analyzed fMRI data.
+
+  - Analyzed fMRI data using independent component analysis (ICA) approach
+  - 
+
 </div>
 <div class="cv-entry" markdown>
 <div class="cv-title">Physical Activity and Brain and Mental Health Lab</div>
@@ -108,5 +109,5 @@ Graduate Student in Brain Science at National Yang Ming Chiao Tung University, w
 
 ## Awards
 
-- **Best Oral Presenter Award** (2025) — 12th International Seminar of Sport and Exercise Psychology, Malaysia. Awarded for the research proposal: Comparing the Effects of Low-Intensity Slow Movement and Tonic Force Generation and Moderate-Intensity Resistance Exercise on Cognitive Flexibility in Older Adults.
-- **Academic Excellence Award** (2023) — National Taitung University. 111-1 & 111-2 Academic Excellence Award.
+**Best Oral Presenter Award** (2025) — 12th International Seminar of Sport and Exercise Psychology, Malaysia.
+  -  Awarded for the research proposal: Comparing the Effects of Low-Intensity Slow Movement and Tonic Force Generation and Moderate-Intensity Resistance Exercise on     Cognitive Flexibility in Older Adults.
