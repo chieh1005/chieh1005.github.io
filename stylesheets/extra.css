@@ -1,3 +1,18 @@
+/* ===== 大腦 Emoji Logo ===== */
+.md-header__button.md-logo {
+  font-size: 1.5rem;
+}
+
+.md-header__button.md-logo::before {
+  content: "🧠";
+  font-size: 2rem;
+  vertical-align: middle;
+}
+
+.md-header__button.md-logo svg {
+  display: none;
+}
+
 /* ===== 經典藍 (PANTONE 19-4052) 色彩配置 ===== */
 :root {
   --md-primary-fg-color: #0F4C81;
