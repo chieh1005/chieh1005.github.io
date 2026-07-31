@@ -3,6 +3,7 @@ site_url: https://chieh1005.github.io/
 site_description: Graduate Student in Brain Science · Cognitive Neuroscience · fMRI & EEG
 
 theme:
+  custom_dir: overrides
   name: material
   palette:
     scheme: default

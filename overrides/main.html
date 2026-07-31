@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block header %}
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid navbar-container">
+    <a href="{{ config.site_url }}" title="{{ config.site_name }}" class="md-header__button md-logo" aria-label="{{ config.site_name }}" data-md-component="logo">
+      {% include "partials/logo.html" %}
+    </a>
+
+    <div class="navbar-title">Personal Website</div>
+
+    <div class="md-header__right md-header__options">
+      <div class="md-search" data-md-component="search" role="region">
+        <label class="md-search__overlay" for="__search"></label>
+        <button class="md-search__button md-icon" for="__search" aria-controls="search-form">
+          {% include ".icons/material/magnify.svg" %}
+        </button>
+        <div class="md-search__inner" role="search">
+          <form class="md-search__form" name="search-form" autocomplete="off">
+            <input class="md-search__input" name="q" aria-label="Search" placeholder="{{ lang.t('search.placeholder') }}" autocomplete="off" data-md-component="search-query" required>
+            <label class="md-search__icon md-icon" for="__search">
+              {% include ".icons/material/close.svg" %}
+            </label>
+            <nav aria-label="Search" class="md-search__options">
+              {% if config.extra.get('search', {}).get('type') == 'server' %}
+                <button class="md-search__icon md-icon" title="{{ lang.t('search.config.lang') }}">
+                  {% include ".icons/material/translate.svg" %}
+                </button>
+              {% endif %}
+            </nav>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+{% endblock %}
