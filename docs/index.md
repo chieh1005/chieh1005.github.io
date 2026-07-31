@@ -9,6 +9,7 @@ Incoming M.Ed. Student in Brain Science · NYCU | B.Ed. in Kinesiology · NTHU
 I'm a graduate student in Brain Science at National Yang Ming Chiao Tung University, Taiwan — bridging a background in kinesiology with cognitive neuroscience and statistical neuroimaging to understand how the brain ages, and how movement can protect it.
 
 **Email:** scwang1005@gmail.com
+
 **GitHub:** [github.com/chieh1005](https://github.com/chieh1005)
 
 ## Research Focus
