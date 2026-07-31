@@ -1,8 +1,6 @@
 site_name: Shang-Chieh Wang
 site_url: https://chieh1005.github.io/
 site_description: Graduate Student in Brain Science · Cognitive Neuroscience · fMRI & EEG
-repo_name: chieh1005/chieh1005.github.io
-repo_url: https://github.com/chieh1005/chieh1005.github.io
 
 theme:
   name: material
