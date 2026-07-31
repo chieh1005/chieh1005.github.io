@@ -57,12 +57,11 @@
 <div class="cv-title">Brain and Learning Lab</div>
 <div class="cv-org">National Yang Ming Chiao Tung University, Hsinchu, Taiwan</div>
 
-*Advisor:* Prof. Jeng-Ren Duann
+*Advisor:* Prof. Jeng-Ren Duann (June 2026 – Present)
 
 **Modulation of the Default Mode Network by DBS in Parkinson's Disease** (June 2026 – Present)
 
   - Analyzed fMRI data using independent component analysis (ICA) approach
-  - 
 
 </div>
 <div class="cv-entry" markdown>
