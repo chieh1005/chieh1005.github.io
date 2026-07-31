@@ -54,10 +54,11 @@
 
 <div class="cv-timeline" markdown>
 <div class="cv-entry" markdown>
-<div class="cv-title">Brain and Learning Lab</div>
+<div class="cv-title">Brain and Learning Lab (June 2026 – Present)
+</div>
 <div class="cv-org">National Yang Ming Chiao Tung University, Hsinchu, Taiwan</div>
 
-*Advisor:* Prof. Jeng-Ren Duann (June 2026 – Present)
+*Advisor:* Prof. Jeng-Ren Duann 
 
 **Modulation of the Default Mode Network by DBS in Parkinson's Disease** (June 2026 – Present)
 
@@ -65,10 +66,11 @@
 
 </div>
 <div class="cv-entry" markdown>
-<div class="cv-title">Physical Activity and Brain and Mental Health Lab</div>
+<div class="cv-title">Physical Activity and Brain and Mental Health Lab (Sep. 2022 – June 2026)
+</div>
 <div class="cv-org">National Tsing Hua University, Hsinchu, Taiwan</div>
 
-*Advisor:* Prof. Feng-Tzu Chen (Sep. 2022 – June 2026)
+*Advisor:* Prof. Feng-Tzu Chen 
 
 **Resistance exercise on planning-related cognitive function in older adults** (Feb. 2023 – Aug. 2023)
 
