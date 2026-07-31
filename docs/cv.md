@@ -62,7 +62,7 @@ Graduate Student in Brain Science at National Yang Ming Chiao Tung University, w
 *Advisor:* Prof. Jeng-Ren Duann
 
 **Modulation of the Default Mode Network by DBS in Parkinson's Disease** (June 2026 – Present)
-- Analyzed fMRI data.
+  - Analyzed fMRI data.
 </div>
 <div class="cv-entry" markdown>
 <div class="cv-title">Physical Activity and Brain and Mental Health Lab</div>
@@ -71,20 +71,20 @@ Graduate Student in Brain Science at National Yang Ming Chiao Tung University, w
 *Advisor:* Prof. Feng-Tzu Chen (Sep. 2022 – June 2026)
 
 **Resistance exercise on planning-related cognitive function in older adults** (Feb. 2023 – Aug. 2023)
-- Conducted experimental sessions and cognitive behavioral assessments.
-- Managed data preprocessing and statistical analysis.
-- Revised journal manuscripts.
+  - Conducted experimental sessions and cognitive behavioral assessments.
+  - Managed data preprocessing and statistical analysis.
+  - Revised journal manuscripts.
 
 **Physical activity level and executive function in hearing impairment adolescents** (Sep. 2024 – June 2025)
-- Designed research methodology and experimental protocols.
-- Conducted behavioral and physical activity experiments.
-- Managed data preprocessing and statistical analysis.
+  - Designed research methodology and experimental protocols.
+  - Conducted behavioral and physical activity experiments.
+  - Managed data preprocessing and statistical analysis.
 
 **Low-intensity resistance exercise with slow movement and tonic force generation on executive function in older adults: An ERP study (NSTC Undergraduate Research Project)** (Oct. 2025 – Feb. 2026)
-- Conceptualized core research frameworks and hypotheses.
-- Designed electrophysiological and behavioral methodologies.
-- Conducted experiments.
-- Managed data preprocessing and statistical analysis.
+  - Conceptualized core research frameworks and hypotheses.
+  - Designed electrophysiological and behavioral methodologies.
+  - Conducted experiments.
+  - Managed data preprocessing and statistical analysis.
 </div>
 </div>
 

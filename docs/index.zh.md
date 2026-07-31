@@ -19,12 +19,10 @@
 - **神經影像 · fMRI 與 EEG** — 建立 fMRI 與 EEG 分析流程，繪製大腦結構、功能與連結。
 - **運動、心理學與老化** — 探討身體活動是否能減緩認知衰退與神經退化。
 
-## Favorite Leisure Activities
+## About Me
 
-Beyond research, I enjoy keeping active and creative:
-
-- **Basketball** — Team sport that keeps me agile and sharp.
-- **Swimming** — Meditative endurance training for body and mind.
-- **Weight Training** — Building strength and understanding biomechanics.
-- **Cooking** — Culinary creativity and sharing meals with friends.
-- **Singing** — Musical expression and stress relief.
+- **Basketball**
+- **Swimming**
+- **Weight Training**
+- **Cooking**
+- **Singing**
