@@ -2,9 +2,7 @@
 
 <img src="assets/images/profile.jpg" alt="Shang-Chieh Wang" style="width:160px;height:auto;border-radius:8px;float:right;margin:0 0 1rem 1.5rem;box-shadow:0 8px 20px rgba(0,0,0,0.15);" loading="lazy">
 
-Incoming M.Ed. Student in Brain Science · NYCU | B.Ed. in Kinesiology · NTHU
-
-**Institute of Education, Major in Brain Science, National Yang Ming Chiao Tung University, Taiwan**
+**Current Position: Institute of Education (Major in Brain Science) , National Yang Ming Chiao Tung University, Taiwan**
 
 I'm a graduate student in Brain Science at National Yang Ming Chiao Tung University, Taiwan — bridging a background in kinesiology with cognitive neuroscience and statistical neuroimaging to understand how the brain ages, and how movement can protect it.
 
