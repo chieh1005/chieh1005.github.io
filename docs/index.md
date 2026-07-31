@@ -1,4 +1,4 @@
-# Shang-Chieh Wang
+# About Me
 
 <img src="assets/images/profile.jpg" alt="Shang-Chieh Wang" style="width:160px;height:auto;border-radius:8px;float:right;margin:0 0 1rem 1.5rem;box-shadow:0 8px 20px rgba(0,0,0,0.15);" loading="lazy">
 
@@ -19,7 +19,7 @@ My work sits at the intersection of clinical neuroscience and human movement —
 - **Neuroimaging · fMRI & EEG** — fMRI & EEG pipelines to map brain structure, function, and connectivity.
 - **Exercise, Psychology & Aging** — Whether physical activity can slow cognitive decline and neurodegeneration.
 
-## About Me
+## Leisure Activities
 
 - **Basketball**
 - **Swimming**
