@@ -19,3 +19,12 @@ My work sits at the intersection of clinical neuroscience and human movement —
 - **Neuroimaging · fMRI & EEG** — fMRI & EEG pipelines to map brain structure, function, and connectivity.
 - **Exercise, Psychology & Aging** — Whether physical activity can slow cognitive decline and neurodegeneration.
 
+## Favorite Leisure Activities
+
+Beyond research, I enjoy keeping active and creative:
+
+- **Basketball** — Team sport that keeps me agile and sharp.
+- **Swimming** — Meditative endurance training for body and mind.
+- **Weight Training** — Building strength and understanding biomechanics.
+- **Cooking** — Culinary creativity and sharing meals with friends.
+- **Singing** — Musical expression and stress relief.
