@@ -13,6 +13,40 @@
   display: none;
 }
 
+/* ===== Navbar Flexbox Layout ===== */
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.navbar-title {
+  flex: 1;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: -0.02em;
+}
+
+/* ===== RWD: 平板與手機適配 ===== */
+@media (max-width: 768px) {
+  .navbar-title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-title {
+    font-size: 18px;
+  }
+
+  .navbar-container {
+    gap: 1rem;
+  }
+}
+
 /* ===== 經典藍 (PANTONE 19-4052) 色彩配置 ===== */
 :root {
   --md-primary-fg-color: #0F4C81;
