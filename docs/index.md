@@ -4,7 +4,7 @@
 
 **Institute of Education | Major in Brain Science, National Yang Ming Chiao Tung University, Taiwan**
 
-I'm a graduate student in Brain Science at National Yang Ming Chiao Tung University, Taiwan — bridging a background in kinesiology with cognitive neuroscience and statistical neuroimaging to understand how the brain ages, and how movement can protect it.
+I'm a graduate student in Brain Science at National Yang Ming Chiao Tung University, Taiwan. I came from Kinesiology background and later recieved training in Cognitive and clinical neuroscience. My research interests lie in developing new methods to disclose complicated brain activities. 
 
 **Email:** scwang1005@gmail.com
 
@@ -12,11 +12,9 @@ I'm a graduate student in Brain Science at National Yang Ming Chiao Tung Univers
 
 ## Research Focus
 
-My work sits at the intersection of clinical neuroscience and human movement — using brain imaging to probe the mechanisms of neurodegenerative disease.
-
-- **Cognitive Neuroscience** — How attention, memory, and executive function reshape themselves across the lifespan.
+- **Cognitive Neuroscience** — Insight (Eureka moment), Emotion, Sleep 
 - **Statistical Neuroimaging** — Using fMRI & EEG to map brain structure, function, and connectivity.
-- **Exercise Prescription & Psychology** —  Investigating the cognitive benefits of resistance in special population. 
+- **Exercise Prescription & Psychology** —  Investigating the cognitive benefits of exercise in special population. 
 
 ## Leisure Activities
 
