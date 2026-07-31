@@ -40,6 +40,7 @@ nav:
   - Home: index.md
   - CV: cv.md
   - Publications: publications.md
+  - Teaching Materials: teaching-materials.md
 
 markdown_extensions:
   - admonition
