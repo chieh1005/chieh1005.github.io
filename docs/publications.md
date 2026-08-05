@@ -4,13 +4,14 @@ Peer-reviewed journal articles and conference proceedings in exercise neuroscien
 
 ## Papers in Peer-Reviewed Journals
 
-1. **Wang, S.-C.**, Wu, T.-T., Lin, Y.-C., Kuo, Y.-X., & Chen, F.-T. (2025). The Effects of Acute Aerobic Exercise on Planning-Related Executive Function in Older Adults: The Moderating Role of Physical Activity Expenditure and Sedentary Behavior Duration. *Bulletin of Sport and Exercise Psychology of Taiwan*, 25(1), 67-90. [DOI: 10.6497/BSEPT.202503_25(1).0004](https://doi.org/10.6497/BSEPT.202503_25(1).0004) **TSSCI**
+1. Wu, T.-T., Chang, Y.-K., Yao, Z.-F., Ren, F.-F., **Wang, S.-C.**, & Chen, F.-T. (2026). Effects of volume-matched acute resistance exercise at different intensities on high-order and core executive functions in older adults. Acta Psychologica. [SSCI; Journal Impact Factor: 3.8; Psychology, Experimental: 11/104, top 10.1%, Q1]
 
-2. Wu, T.-T., Hong, C.-H., **Wang, S.-C.**, Hsieh, S.-S., & Chen, F.-T. (Accepted). Comparing the Effects of Traditional and Blood Flow Restriction Resistance Exercise on Planning-Related Executive Function. *Journal of Sports Performance*. [DOI: 10.53106/240996512025091202005](https://doi.org/10.53106/240996512025091202005) **TSSCI**
+2. 陳邁可、**王上杰**、顏士弦、陳豐慈、張育愷（2026）。健康相關體適能對高齡者認知功能之影響：文獻回顧。中華體育季刊，40(2)，207-224。https://doi.org/10.6223/qcpe.202606_40(2).0004 **TSSCI**
+   
+3. **王上杰**、吳亭葶、林宥芊、江巧羽、郭育瑄、陳豐慈（2025）。急性有氧健身運動對高齡者計畫相關執行功能之影響：身體活動量及靜態行為之調節角色。臺灣運動心理學報，25(1)，67-90。 https://doi.org/10.6497/BSEPT.202503_25(1).0004 **TSSCI**
 
-3. Chen, M.-K., **Wang, S.-C.**, Yan, S.-X., Chen, F.-T., & Zhang, Y.-K. (Accepted). The Impact of Health-Related Physical Fitness on Cognitive Function in Older Adults: A Narrative Review. *Chinese Journal of Sports Medicine*. **TSSCI**
+4. 吳亭葶、洪辰歆、**王上杰**、謝漱石、陳豐慈（2025）。比較傳統式與血流限制阻力健身運動對計畫相關執行功能之影響。運動表現期刊，12(2)，329-347。 https://doi.org/10.53106/240996512025091202005 **TSSCI**
 
-4. Wu, T.-T., Chang, Y.-K., Yao, Z.-F., **Wang, S.-C.**, & Chen, F.-T. (2026). Effects of volume-matched acute resistance exercise at different intensities on high-order and core executive functions in older adults. *Acta Psychologica* (under review).
 
 ## Conference Papers with Published Abstracts or Full Papers
 
