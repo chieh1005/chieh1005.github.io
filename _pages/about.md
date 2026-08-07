@@ -421,7 +421,7 @@ body, .aw, .lang-content {
 
     <!-- Research Roadmap & Framework -->
     <figure style="text-align: center; margin: 2rem 0;">
-      <img src="{{ site.baseurl }}/assets/img/research_roadmap.png" 
+      <img src="{{ site.baseurl }}/assets/img/research_road_final.jpg" 
            alt="My Research Roadmap & Framework: Four phases from Functional Localization through Evidence Generation" 
            style="width: 100%; max-width: 1000px; height: auto; border-radius: 8px;">
       <figcaption style="margin-top: 1rem; font-size: 0.95rem; color: #666; font-style: italic;">
