@@ -16,6 +16,15 @@ I'm a graduate student in Brain Science at National Yang Ming Chiao Tung Univers
 - **Statistical Neuroimaging** — Using fMRI & EEG to map brain structure, function, and connectivity.
 - **Exercise Prescription & Psychology** —  Investigating the cognitive benefits of exercise in special population. 
 
+<figure style="text-align: center; margin: 2rem auto; max-width: 100%;">
+  <img src="assets/img/research_roadmap.png" 
+       alt="Research Roadmap & Framework - Four phases: Functional Localization, Functional Integration, Multi-Modal Imaging, Evidence Generation" 
+       style="width: 100%; max-width: 900px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <figcaption style="margin-top: 1rem; font-size: 0.9rem; color: #666;">
+    <em>My research roadmap spanning four integrated phases: Functional Localization → Functional Integration → Multi-Modal Imaging → Evidence Generation</em>
+  </figcaption>
+</figure>
+
 ## Leisure Activities
 
 - **Basketball**
