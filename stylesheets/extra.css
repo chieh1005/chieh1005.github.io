@@ -203,3 +203,28 @@
 .md-typeset a:not(.md-button):hover {
   border-bottom-color: currentColor;
 }
+
+/* ===== 卡片質感設計增強 ===== */
+.md-typeset .grid.cards > * {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 12px;
+  padding: 1.2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.md-typeset .grid.cards > *:hover {
+  transform: translateY(-4px);
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+}
+
+/* ===== 按鈕質感增強 ===== */
+.md-typeset a.md-button,
+.cta-button {
+  box-shadow: 0 2px 8px rgba(15, 76, 129, 0.15);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.md-typeset a.md-button:hover,
+.cta-button:hover {
+  box-shadow: 0 6px 16px rgba(15, 76, 129, 0.25);
+}
