@@ -333,7 +333,6 @@
 .page-cv .cv-timeline .cv-entry:nth-child(3) { animation-delay: 0.2s; }
 .page-cv .cv-timeline .cv-entry:nth-child(4) { animation-delay: 0.3s; }
 .page-cv .cv-entry:hover {
-  transform: translateX(5px);
   border-color: var(--md-accent-fg-color);
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
 }
@@ -515,7 +514,6 @@
   .page-teach h3,
   .page-teach ul > li { animation: none; }
   .page-cv .cv-entry::before { animation: none; }
-  .page-cv .cv-entry:hover,
   .page-pub ol > li:hover,
   .page-teach ul > li:hover { transform: none; }
 }
