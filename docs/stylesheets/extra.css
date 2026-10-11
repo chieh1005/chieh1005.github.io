@@ -144,13 +144,13 @@
   gap: 1rem;
   margin: 1.5rem 0;
 }
-.md-typeset .grid.cards > * {
+.md-typeset .grid.cards > ul > li {
   border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: 12px;
   padding: 1.2rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
-.md-typeset .grid.cards > *:hover {
+.md-typeset .grid.cards > ul > li:hover {
   transform: translateY(-4px);
   border-color: var(--md-accent-fg-color);
   box-shadow: 0 12px 28px rgba(0,0,0,0.1);
@@ -205,14 +205,14 @@
 }
 
 /* ===== 卡片質感設計增強 ===== */
-.md-typeset .grid.cards > * {
+.md-typeset .grid.cards > ul > li {
   border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: 12px;
   padding: 1.2rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
-.md-typeset .grid.cards > *:hover {
+.md-typeset .grid.cards > ul > li:hover {
   transform: translateY(-4px);
   border-color: var(--md-accent-fg-color);
   box-shadow: 0 12px 28px rgba(0,0,0,0.12);
@@ -230,12 +230,12 @@
 }
 
 /* ===== 特效：卡片游標聚光燈 / 按鈕光掃 / Hero 流光 ===== */
-.md-typeset .grid.cards > * {
+.md-typeset .grid.cards > ul > li {
   position: relative;
   overflow: hidden;
   isolation: isolate;
 }
-.md-typeset .grid.cards > *::before {
+.md-typeset .grid.cards > ul > li::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -246,7 +246,7 @@
   transition: opacity 0.4s ease;
   background: radial-gradient(260px circle at var(--mx, 50%) var(--my, 50%), rgba(0, 164, 239, 0.18), transparent 70%);
 }
-.md-typeset .grid.cards > *:hover::before {
+.md-typeset .grid.cards > ul > li:hover::before {
   opacity: 1;
 }
 
@@ -285,7 +285,7 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .md-typeset .grid.cards > *::before { display: none; }
+  .md-typeset .grid.cards > ul > li::before { display: none; }
   .md-typeset a.md-button:hover::after,
   .cta-button:hover::after,
   .md-content__inner > h1:first-child { animation: none; }

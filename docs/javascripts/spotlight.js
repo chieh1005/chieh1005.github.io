@@ -2,7 +2,7 @@
 // Delegated on document so it keeps working after MkDocs instant navigation.
 document.addEventListener("pointermove", function (e) {
   if (!e.target.closest || !window.matchMedia("(hover: hover)").matches) return;
-  var card = e.target.closest(".md-typeset .grid.cards > *");
+  var card = e.target.closest(".md-typeset .grid.cards > ul > li");
   if (!card) return;
   var r = card.getBoundingClientRect();
   card.style.setProperty("--mx", e.clientX - r.left + "px");

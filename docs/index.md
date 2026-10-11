@@ -12,9 +12,27 @@ I'm a graduate student in Brain Science at National Yang Ming Chiao Tung Univers
 
 ## Research Focus
 
-- **Cognitive Neuroscience** — Insight (Eureka moment), Emotion, Sleep 
-- **Statistical Neuroimaging** — Using fMRI & EEG to map brain structure, function, and connectivity.
-- **Exercise Prescription & Psychology** —  Investigating the cognitive benefits of exercise in special population. 
+<div class="grid cards" markdown>
+
+- :material-brain: **Cognitive Neuroscience**
+
+    ---
+
+    Insight (Eureka moment), Emotion, Sleep
+
+- :material-chart-scatter-plot: **Statistical Neuroimaging**
+
+    ---
+
+    Using fMRI & EEG to map brain structure, function, and connectivity.
+
+- :material-run: **Exercise Prescription & Psychology**
+
+    ---
+
+    Investigating the cognitive benefits of exercise in special populations.
+
+</div>
 
 <figure style="text-align: center; margin: 2rem auto; max-width: 100%;">
   <img src="assets/images/research_road_final.jpg" 
@@ -24,6 +42,11 @@ I'm a graduate student in Brain Science at National Yang Ming Chiao Tung Univers
     <em>My research roadmap spanning four integrated phases: Functional Localization → Functional Integration → Multi-Modal Imaging → Evidence Generation</em>
   </figcaption>
 </figure>
+
+<p style="text-align: center; margin: 1.5rem 0;">
+  <a href="cv.md" class="md-button">View CV</a>
+  <a href="publications.md" class="md-button md-button--secondary">Publications</a>
+</p>
 
 ## Leisure Activities
 
