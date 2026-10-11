@@ -228,3 +228,65 @@
 .cta-button:hover {
   box-shadow: 0 6px 16px rgba(15, 76, 129, 0.25);
 }
+
+/* ===== 特效：卡片游標聚光燈 / 按鈕光掃 / Hero 流光 ===== */
+.md-typeset .grid.cards > * {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+.md-typeset .grid.cards > *::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  background: radial-gradient(260px circle at var(--mx, 50%) var(--my, 50%), rgba(0, 164, 239, 0.18), transparent 70%);
+}
+.md-typeset .grid.cards > *:hover::before {
+  opacity: 1;
+}
+
+.md-typeset a.md-button,
+.cta-button {
+  position: relative;
+  overflow: hidden;
+}
+.md-typeset a.md-button::after,
+.cta-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(105deg, transparent 0%, rgba(255, 255, 255, 0.45) 50%, transparent 100%);
+  transform: skewX(-20deg);
+  pointer-events: none;
+}
+.md-typeset a.md-button:hover::after,
+.cta-button:hover::after {
+  animation: cta-sweep 0.9s ease;
+}
+@keyframes cta-sweep {
+  to { left: 130%; }
+}
+
+.md-content__inner > h1:first-child {
+  background-size: 200% 200%;
+  animation: hero-sheen 9s ease infinite;
+}
+@keyframes hero-sheen {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .md-typeset .grid.cards > *::before { display: none; }
+  .md-typeset a.md-button:hover::after,
+  .cta-button:hover::after,
+  .md-content__inner > h1:first-child { animation: none; }
+}
