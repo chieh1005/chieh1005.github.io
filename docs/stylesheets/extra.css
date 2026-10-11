@@ -312,9 +312,12 @@
 
 /* ---------- CV：時間軸卡片 ---------- */
 .page-cv .cv-timeline {
-  border-left: 3px solid transparent;
+  /* 線寬取偶數（4px），中心落在整數像素上，圓點才不會半像素模糊 */
+  --cv-line-w: 4px;
+  --cv-indent: 1.6rem;
+  border-left: var(--cv-line-w) solid transparent;
   border-image: linear-gradient(to bottom, var(--md-primary-fg-color--light), var(--md-accent-fg-color)) 1;
-  padding-left: 1.6rem;
+  padding-left: var(--cv-indent);
   margin: 1.2rem 0 2.2rem;
 }
 .page-cv .cv-entry {
@@ -335,10 +338,13 @@
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
 }
 .page-cv .cv-entry::before {
-  left: -2.13rem;
+  /* 圓心對齊線中心：卡片內側 = 線寬 + 縮排 + 卡片 1px 邊框；
+     left 以卡片 padding box 為基準，故圓心位置 = -(縮排 + 線寬/2 + 1px)，再用 translateX(-50%) 置中 */
+  left: calc(-1 * (var(--cv-indent) + var(--cv-line-w) / 2 + 1px));
   top: 1.2rem;
   width: 14px;
   height: 14px;
+  transform: translateX(-50%);
   animation: dot-ping 2.4s ease-out infinite;
 }
 @keyframes dot-ping {
