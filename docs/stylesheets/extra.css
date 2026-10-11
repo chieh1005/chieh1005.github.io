@@ -290,3 +290,226 @@
   .cta-button:hover::after,
   .md-content__inner > h1:first-child { animation: none; }
 }
+
+/* =====================================================================
+   頁面專屬樣式：CV / Publications / Teaching Materials（只影響這三頁）
+   ===================================================================== */
+
+/* ---------- 共用：頁首引言 + 入場動畫 ---------- */
+.page-cv > p:first-child,
+.page-pub > p:first-child,
+.page-teach > p:first-child {
+  font-size: 1.05rem;
+  color: var(--md-default-fg-color--light);
+  border-left: 3px solid var(--md-accent-fg-color);
+  padding-left: 0.9rem;
+  margin: 0.2rem 0 1.5rem;
+}
+@keyframes page-rise {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* ---------- CV：時間軸卡片 ---------- */
+.page-cv .cv-timeline {
+  border-left: 3px solid transparent;
+  border-image: linear-gradient(to bottom, var(--md-primary-fg-color--light), var(--md-accent-fg-color)) 1;
+  padding-left: 1.6rem;
+  margin: 1.2rem 0 2.2rem;
+}
+.page-cv .cv-entry {
+  margin-bottom: 1.4rem;
+  padding: 1rem 1.2rem;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(0, 164, 239, 0.06), transparent 60%);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  animation: page-rise 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.page-cv .cv-timeline .cv-entry:nth-child(2) { animation-delay: 0.1s; }
+.page-cv .cv-timeline .cv-entry:nth-child(3) { animation-delay: 0.2s; }
+.page-cv .cv-timeline .cv-entry:nth-child(4) { animation-delay: 0.3s; }
+.page-cv .cv-entry:hover {
+  transform: translateX(5px);
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+.page-cv .cv-entry::before {
+  left: -2.13rem;
+  top: 1.2rem;
+  width: 14px;
+  height: 14px;
+  animation: dot-ping 2.4s ease-out infinite;
+}
+@keyframes dot-ping {
+  0%   { box-shadow: 0 0 0 0 rgba(0, 164, 239, 0.45), 0 0 0 3px var(--md-default-bg-color); }
+  70%  { box-shadow: 0 0 0 9px transparent, 0 0 0 3px var(--md-default-bg-color); }
+  100% { box-shadow: 0 0 0 0 transparent, 0 0 0 3px var(--md-default-bg-color); }
+}
+.page-cv .cv-date {
+  display: inline-block;
+  padding: 0.15rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(0, 164, 239, 0.12);
+  margin-bottom: 0.35rem;
+}
+.page-cv .cv-title {
+  font-size: 1.08rem;
+  color: var(--md-default-fg-color);
+}
+.page-cv .cv-org {
+  font-style: italic;
+  margin-bottom: 0.4rem;
+}
+.page-cv .cv-entry ul,
+.page-cv .cv-entry li {
+  font-size: 0.93rem;
+}
+.page-cv .cv-entry li::marker {
+  color: var(--md-accent-fg-color);
+}
+.page-cv h2 {
+  animation: page-rise 0.6s ease both;
+}
+/* Awards: highlighted card */
+.page-cv > p:has(strong) {
+  padding: 0.9rem 1.1rem;
+  border-radius: 12px;
+  background: rgba(0, 164, 239, 0.08);
+  border-left: 4px solid var(--md-accent-fg-color);
+}
+
+/* ---------- Publications：編號徽章卡片 ---------- */
+.page-pub > h2 {
+  margin-top: 2.6rem !important;
+}
+.page-pub ol {
+  list-style: none;
+  counter-reset: pub;
+  padding-left: 0;
+  margin: 0.6rem 0 1.4rem;
+}
+.page-pub ol > li {
+  counter-increment: pub;
+  position: relative;
+  margin-bottom: 0.9rem;
+  padding: 1rem 1.2rem 1rem 3.4rem;
+  border-radius: 12px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  background: var(--md-default-bg-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  line-height: 1.6;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  animation: page-rise 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.page-pub ol > li:nth-child(2) { animation-delay: 0.08s; }
+.page-pub ol > li:nth-child(3) { animation-delay: 0.16s; }
+.page-pub ol > li:nth-child(4) { animation-delay: 0.24s; }
+.page-pub ol > li:nth-child(5) { animation-delay: 0.32s; }
+.page-pub ol > li:nth-child(6) { animation-delay: 0.4s; }
+.page-pub ol > li::before {
+  content: counter(pub);
+  position: absolute;
+  left: 1rem;
+  top: 1.05rem;
+  width: 1.7rem;
+  height: 1.7rem;
+  line-height: 1.7rem;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(135deg, var(--md-primary-fg-color), var(--md-accent-fg-color));
+}
+.page-pub ol > li:hover {
+  transform: translateY(-3px);
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.1);
+}
+/* Highlight the author's own name */
+.page-pub strong {
+  color: var(--md-primary-fg-color);
+  background: linear-gradient(transparent 62%, rgba(0, 164, 239, 0.22) 62%);
+  padding: 0 0.1rem;
+}
+.page-pub li a {
+  font-weight: 600;
+}
+
+/* ---------- Teaching Materials：分區卡片 + 項目列 ---------- */
+.page-teach h2 {
+  margin-top: 2.4rem !important;
+}
+.page-teach h3 {
+  display: inline-block;
+  font-weight: 650;
+  padding: 0.25rem 0.9rem;
+  margin: 1.6rem 0 0.7rem;
+  border-radius: 999px;
+  color: #fff;
+  background: linear-gradient(90deg, var(--md-primary-fg-color), var(--md-accent-fg-color));
+  box-shadow: 0 4px 12px rgba(0, 164, 239, 0.25);
+  animation: page-rise 0.6s ease both;
+}
+.page-teach ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 0.8rem;
+}
+.page-teach ul > li {
+  position: relative;
+  margin-bottom: 0.55rem;
+  padding: 0.75rem 1rem 0.75rem 2.4rem;
+  border-radius: 10px;
+  border-left: 3px solid var(--md-accent-fg-color);
+  background: var(--md-default-fg-color--lightest);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  animation: page-rise 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.page-teach ul > li:nth-child(2) { animation-delay: 0.08s; }
+.page-teach ul > li:nth-child(3) { animation-delay: 0.16s; }
+.page-teach ul > li::before {
+  content: "";
+  position: absolute;
+  left: 0.95rem;
+  top: 50%;
+  width: 7px;
+  height: 7px;
+  margin-top: -3.5px;
+  border-radius: 50%;
+  background: var(--md-primary-fg-color--light);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.page-teach ul > li:hover {
+  transform: translateX(6px);
+  background: rgba(0, 164, 239, 0.1);
+}
+.page-teach ul > li:hover::before {
+  transform: scale(1.6);
+  background: var(--md-accent-fg-color);
+}
+.page-teach hr {
+  border: 0;
+  height: 2px;
+  margin: 2.4rem 0 1.2rem;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--md-primary-fg-color), var(--md-accent-fg-color), transparent);
+}
+.page-teach hr + p {
+  text-align: center;
+  font-style: italic;
+  color: var(--md-default-fg-color--light);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-cv .cv-entry,
+  .page-cv h2,
+  .page-pub ol > li,
+  .page-teach h3,
+  .page-teach ul > li { animation: none; }
+  .page-cv .cv-entry::before { animation: none; }
+  .page-cv .cv-entry:hover,
+  .page-pub ol > li:hover,
+  .page-teach ul > li:hover { transform: none; }
+}

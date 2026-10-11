@@ -1,5 +1,8 @@
 # Publications
 
+<div class="page-pub" markdown="1">
+
+
 Peer-reviewed journal articles and conference proceedings in exercise neuroscience.
 
 ## Papers in Peer-Reviewed Journals
@@ -26,3 +29,5 @@ Peer-reviewed journal articles and conference proceedings in exercise neuroscien
 5. Chiang, C.-Y., Wu, T.-T., & **Wang, S.-C.** (2024). The Relationship Between Physical Activity Levels and Planning-Related Executive Function in Adolescents with Hearing Impairments. 2024 Annual Meeting and Academic Conference of the Taiwan Society of Sport Psychology: Issues of Mental Health in the AI Era: Challenges for Sport Psychology, Taichung, Taiwan.
 
 6. Zhang, Y.-C., Su, H.-F., He, X.-H., Wang, Y.-S., **Wang, S.-C.**, & Chen, F.-T. (2025). The Effect of Dual-Task Training on Planning-Related Executive Function in Older Adults: The Moderating Role of Exercise Frequency. 2025 Annual Meeting and Academic Conference of the Taiwan Society of Sport Psychology, Taichung, Taiwan.
+
+</div>

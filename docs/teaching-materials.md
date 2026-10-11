@@ -1,5 +1,8 @@
 # Teaching Materials
 
+<div class="page-teach" markdown="1">
+
+
 Educational resources and materials for courses and workshops in cognitive neuroscience, brain imaging, and exercise neuroscience.
 
 ## Course Materials
@@ -24,3 +27,5 @@ Educational resources and materials for courses and workshops in cognitive neuro
 ---
 
 More resources coming soon.
+
+</div>

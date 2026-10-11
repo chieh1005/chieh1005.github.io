@@ -1,5 +1,8 @@
 # Curriculum Vitae
 
+<div class="page-cv" markdown="1">
+
+
 ## Education
 
 <div class="cv-timeline" markdown>
@@ -112,3 +115,5 @@
 
 **Best Oral Presenter Award** (2025) — 12th International Seminar of Sport and Exercise Psychology, Malaysia.
   -  Awarded for the research proposal: Comparing the Effects of Low-Intensity Slow Movement and Tonic Force Generation and Moderate-Intensity Resistance Exercise on     Cognitive Flexibility in Older Adults.
+
+</div>
