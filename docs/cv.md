@@ -5,7 +5,7 @@
 <div class="cv-timeline" markdown>
 <div class="cv-entry" markdown>
 <span class="cv-date">2026 – Present</span>
-<div class="cv-title">Master of Education, Brain Science</div>
+<div class="cv-title">Master of Education, Science, Technology, Engineering and Mathematics (STEM) Education - Major in Brain Science </div>
 <div class="cv-org">National Yang Ming Chiao Tung University, Taiwan</div>
 
 - Supervised by Prof. Jeng-Ren Duann.
