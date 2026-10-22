@@ -43,11 +43,6 @@ I'm a graduate student in Brain Science at National Yang Ming Chiao Tung Univers
   </figcaption>
 </figure>
 
-<p style="text-align: center; margin: 1.5rem 0;">
-  <a href="cv.md" class="md-button">View CV</a>
-  <a href="publications.md" class="md-button md-button--secondary">Publications</a>
-</p>
-
 ## Leisure Activities
 
 - **Basketball**
