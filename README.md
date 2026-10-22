@@ -1,10 +1,10 @@
-﻿# Shang-Chieh Wang's Personal Website
+# Shang-Chieh Wang's Personal Website
 
 A professional personal website built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) showcasing academic work, research experience, and professional interests in cognitive neuroscience and brain imaging.
 
 ## Overview
 
-This website serves as a digital portfolio for Shang-Chieh Wang, a graduate student in Brain Science at National Yang Ming Chiao Tung University, Taiwan. The site highlights research focus areas, curriculum vitae, publications, and personal interests.
+This website serves as a digital portfolio for Shang-Chieh Wang, a graduate student in Brain Science at National Yang Ming Chiao Tung University, Taiwan. The site highlights research focus areas, curriculum vitae, publications, teaching materials, and personal interests.
 
 **Version:** 1.0  
 **Release Date:** July 31, 2026  
@@ -16,40 +16,44 @@ This website serves as a digital portfolio for Shang-Chieh Wang, a graduate stud
 
 | Content Section | File Path | Description |
 |---|---|---|
-| **Homepage** | docs/index.md | Main landing page with introduction, research focus, and favorite leisure activities (English version) |
-| **Homepage (Chinese)** | docs/index.zh.md | Chinese version of the homepage |
-| **Curriculum Vitae** | docs/cv.md | Detailed CV including education, coursework, research experience, skills, and awards (English) |
-| **CV (Chinese)** | docs/cv.zh.md | Chinese version of the CV |
-| **Publications** | docs/publications.md | Journal articles and conference proceedings (English) |
-| **Publications (Chinese)** | docs/publications.zh.md | Chinese version of publications page |
+| **Homepage** | docs/index.md | Main landing page with introduction, research focus, and favorite leisure activities |
+| **Curriculum Vitae** | docs/cv.md | Education, coursework, research experience, skills, and awards |
+| **Publications** | docs/publications.md | Journal articles and conference proceedings |
+| **Teaching Materials** | docs/teaching-materials.md | Course materials (Neuroimaging Methods) with links to external resources |
+| **Blog** | docs/blog.md | Blog page |
+| **About** | docs/about.md | About page |
 | **Profile Photo** | docs/assets/images/profile.jpg | Profile picture displayed on homepage |
-| **Styling** | docs/stylesheets/extra.css | Custom CSS including color scheme, typography, timeline layouts, and emoji logo |
+| **Styling** | docs/stylesheets/extra.css | Custom CSS including color scheme, typography, timeline layouts, and page styles |
+| **Scripts** | docs/javascripts/spotlight.js | Custom JavaScript effects |
+| **Theme Overrides** | overrides/ | Template overrides (favicon) |
 | **Configuration** | mkdocs.yml | Site-wide configuration (theme, colors, navigation, extensions) |
-| **Dependencies** | equirements.txt | Python dependencies for building the site |
+| **Dependencies** | requirements.txt | Python dependencies for building the site |
 
 ## How to Edit Content
 
 ### Edit the Homepage
-- **English:** Edit docs/index.md
+- Edit docs/index.md
   - Introduction paragraph
   - Research Focus section
   - Favorite Leisure Activities section
-- **Chinese:** Edit docs/index.zh.md (same structure, Chinese translation)
 
 ### Edit the Curriculum Vitae
-- **English:** Edit docs/cv.md
+- Edit docs/cv.md
   - Education (Master's & Bachelor's degrees)
   - Selected Coursework (grouped by category)
   - Research Experience (organized by lab)
   - Skills (experimental techniques & programming)
   - Awards
-- **Chinese:** Edit docs/cv.zh.md
 
 ### Edit Publications
-- **English:** Edit docs/publications.md
+- Edit docs/publications.md
   - Journal papers (with DOI links)
   - Conference proceedings
-- **Chinese:** Edit docs/publications.zh.md
+
+### Edit Teaching Materials
+- Edit docs/teaching-materials.md
+  - Course Materials → Neuroimaging Methods
+  - Add a Markdown link to any external resource, e.g. `- [Title](https://...)`
 
 ### Edit Website Styling & Colors
 - **CSS Customization:** docs/stylesheets/extra.css
@@ -70,7 +74,7 @@ This website serves as a digital portfolio for Shang-Chieh Wang, a graduate stud
 
 ### Change Profile Photo
 - Replace docs/assets/images/profile.jpg with your new image
-- Filename must remain profile.jpg or update reference in docs/index.md and docs/index.zh.md
+- Filename must remain profile.jpg or update the reference in docs/index.md
 
 ## Technical Stack
 
@@ -83,7 +87,7 @@ This website serves as a digital portfolio for Shang-Chieh Wang, a graduate stud
 
 ## Building Locally
 
-\\ash
+```bash
 # Install dependencies
 pip install -r requirements.txt
 
@@ -93,7 +97,7 @@ mkdocs build
 # Preview locally
 mkdocs serve
 # Access at http://localhost:8000
-\\
+```
 
 ## Deployment
 
@@ -108,7 +112,6 @@ The site is automatically deployed to GitHub Pages via GitHub Actions whenever c
 - 🧠 Brain emoji branding
 - 📱 Clean, professional layout
 - 🔍 Full-text search capability
-- 🌐 Bilingual support (English & Traditional Chinese)
 - ⚡ Fast static site performance
 
 ## License
@@ -117,5 +120,5 @@ This is a personal portfolio website. All content is authored by Shang-Chieh Wan
 
 ---
 
-**Last Updated:** July 31, 2026  
+**Last Updated:** October 22, 2026  
 **Version:** 1.0
