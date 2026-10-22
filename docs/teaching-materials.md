@@ -3,29 +3,13 @@
 <div class="page-teach" markdown="1">
 
 
-Educational resources and materials for courses and workshops in cognitive neuroscience, brain imaging, and exercise neuroscience.
+Educational resources and materials for courses in cognitive neuroscience and brain imaging.
 
 ## Course Materials
 
 ### Neuroimaging Methods
-- Introduction to fMRI data preprocessing and analysis
+- [Introduction to fMRI data preprocessing and analysis](https://drive.google.com/drive/folders/1g3XIhD8Z1RTQrcE7SHHg7JakR0u4kaKX?usp=drive_link){:target="_blank" rel="noopener"}
 - EEG data collection, processing, and interpretation
 - Advanced neuroimaging techniques for cognitive research
-
-### Exercise Neuroscience
-- Effects of physical activity on brain health and cognition
-- Designing exercise interventions for cognitive enhancement
-- Assessment methods in exercise neuroscience research
-
-## Workshop Resources
-
-### Tutorials & Guides
-- Step-by-step guides for common neuroimaging analyses
-- Best practices in experimental design for neuroscience
-- Data visualization techniques for brain imaging results
-
----
-
-More resources coming soon.
 
 </div>
