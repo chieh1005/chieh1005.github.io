@@ -7,7 +7,7 @@ Peer-reviewed journal articles and conference proceedings in exercise neuroscien
 
 ## Papers in Peer-Reviewed Journals
 
-1. **王上杰**、吳亭葶、董思妤、粘瑞狄、陳豐慈（2026）(投稿中) 低強度慢速等張阻力健身運動對高齡者工作記憶與認知彈性之影響：隨機對照試驗研究。大專體育學刊
+1. **王上杰**、吳亭葶、董思妤、粘瑞狄、陳豐慈（2026）(投稿中) 低強度慢速等張阻力健身運動對高齡者工作記憶與認知彈性之影響：隨機對照試驗研究。大專體育學刊 [TSSCI]
    
 2. Wu, T.T., Chang, Y.K., Yao, Z.F., Ren, F.F., **Wang, S.C.**, & Chen, F.T. (2026). Effects of volume-matched acute resistance exercise at different intensities on high-order and core executive functions in older adults. Acta Psychologica. [SSCI; Journal Impact Factor: 3.8; Psychology, Experimental: 11/104, top 10.1%, Q1]
 
